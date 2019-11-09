@@ -1,0 +1,64 @@
+{
+  "docs": {
+    "Inicio": [
+      {
+        "type": "subcategory",
+        "label": "Introducción",
+        "ids": [
+          "index", "indice"
+        ]
+      }
+    ],
+    "JavaScript": [
+      {
+        "type": "subcategory",
+        "label": "eris",
+        "ids": [
+          "Javascript/eris/eris-1", "Javascript/eris/eris-2", "Javascript/eris/eris-3"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "discord.js",
+        "ids": [
+          "Javascript/djs/djs-1", "Javascript/djs/djs-2", "Javascript/djs/djs-3"
+        ]
+      }
+    ],
+    "Ruby": [
+      {
+        "type": "subcategory",
+        "label": "Ruby: título creativo",
+        "ids": [
+          "ruby/guía/rb-guia-1", "ruby/guía/rb-guia-2"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "discordrb",
+        "ids": [
+          "ruby/discordrb/drb-1", "ruby/discordrb/drb-2"
+        ]
+      }
+    ],
+    "Julia": [
+      {
+        "type": "subcategory",
+        "label": "Julia: título creativo",
+        "ids": [
+          "julia/guía/jl-guia-1"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "discord.jl",
+        "ids": [
+          "julia/djl/djl-1", "julia/djl/djl-2"
+        ]
+      }
+    ]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
