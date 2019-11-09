@@ -18,7 +18,7 @@ module.exports = {
       title: 'Script Hub',
       logo: {
         alt: 'Script Hub',
-        src: 'img/logo.svg',
+        src: 'img/logo-cord-raw.png',
       },
       links: [
         {to: 'docs/home', label: 'Documentación', position: 'left'},
