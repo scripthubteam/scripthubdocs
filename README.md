@@ -2,6 +2,8 @@
 
 Versión beta pública *alternativa* de la documentación de **Script Hub** usando [Docusaurus 2.0](https://v2.docusaurus.io/). Mantenida exclusivamente por @MrDevsaider.
 
+**(!)** Este proyecto maneja dos repositorios distintos donde se usan distintas versiones de Docusaurus. Si quieres contribuir con el formato del contenido de la documentación puedes pasarte por acá (también) [scripthubteam/scripthub (Mantenida por Lauu)](https://github.com/scripthubteam/scripthub).
+
 
 ## Novedades
 
