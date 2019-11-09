@@ -29,7 +29,7 @@ module.exports = {
         "type": "category",
         "label": "Ruby: título creativo",
         "items": [
-          "ruby/guía/rb-guia-1", "ruby/guía/rb-guia-2"
+          "ruby/guia/rb-guia-1", "ruby/guia/rb-guia-2"
         ]
       },
       {

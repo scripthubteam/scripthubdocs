@@ -10,7 +10,7 @@ module.exports = {
   tagline: 'Programación de bots con Discord en español.',
   url: 'https://scripthubteam.github.io',
   baseUrl: '/',
-  favicon: '',
+  favicon: 'img/logo-cord-raw.png',
   organizationName: 'scripthubteam', // Usually your GitHub org/user name.
   projectName: 'scripthubdocs', // Usually your repo name.
   themeConfig: {
