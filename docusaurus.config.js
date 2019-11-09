@@ -11,8 +11,8 @@ module.exports = {
   url: 'https://scripthubteam.github.io',
   baseUrl: '/',
   favicon: '',
-  organizationName: 'Script Hub', // Usually your GitHub org/user name.
-  projectName: 'Script Hub', // Usually your repo name.
+  organizationName: 'scripthubteam', // Usually your GitHub org/user name.
+  projectName: 'scripthubdocs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Script Hub',
