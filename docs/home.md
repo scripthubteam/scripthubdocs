@@ -1,6 +1,6 @@
 ---
 id: home
-title: Sobre nosotros
+title: Bienvenid@ a nuestra documentación
 sidebar_label: Sobre nosotros 
 ---
 

@@ -8,7 +8,7 @@ Creada y mantenida por: NTB Bloodbath (Monspeet#6746), Lauuu (Lauuu#7421)
 
 Versión: 0.2.0 [BETA]
 
-Última edición: 07/11/19
+Última edición del archivo: 07/11/19
 ________
 ## ¿Qué es Ruby?
 **Ruby es un lenguaje de programación interpretado, reflexivo y orientado a objetos**, creado por el programador japonés Yukihiro "Matz" Matsumoto, quien comenzó a trabajar en Ruby en 1993, y lo presentó públicamente en 1995. **Combina una sintaxis inspirada en Python y Perl con características de programación orientada a objetos similares a Smalltalk.**

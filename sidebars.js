@@ -11,6 +11,13 @@ module.exports = {
     "JavaScript": [
       {
         "type": "category",
+        "label": "NodeJS: Título creativo",
+        "items": [
+          "Javascript/nodejs/nodejs-guia-1"
+        ]
+      },
+      {
+        "type": "category",
         "label": "eris",
         "items": [
           "Javascript/eris/eris-1", "Javascript/eris/eris-2", "Javascript/eris/eris-3"

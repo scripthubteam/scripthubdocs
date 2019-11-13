@@ -29,6 +29,11 @@ module.exports = {
           position: 'right',
         },
         {
+          href: 'https://www.patreon.com/scripthubteam',
+          label: 'Patreon',
+          position: 'right',
+        },
+        {
           href: 'https://discord.gg/se6Ncjr',
           label: 'Discord',
           position: 'right',

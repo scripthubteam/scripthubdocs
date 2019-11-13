@@ -12,6 +12,13 @@
     "JavaScript": [
       {
         "type": "subcategory",
+        "label": "NodeJS: Título creativo",
+        "ids": [
+          "Javascript/nodejs/nodejs-guia-1"
+        ]
+      },
+      {
+        "type": "subcategory",
         "label": "eris",
         "ids": [
           "Javascript/eris/eris-1", "Javascript/eris/eris-2", "Javascript/eris/eris-3"
