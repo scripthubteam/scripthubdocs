@@ -1,7 +1,7 @@
 ---
 id: rb-guia-1
 title: Ruby - Título creativo
-sidebar_label: Ruby - Título creativo
+sidebar_label: Introducción
 ---
 
 Creada y mantenida por: NTB Bloodbath (Monspeet#6746), Lauuu (Lauuu#7421)

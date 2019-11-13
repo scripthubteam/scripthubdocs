@@ -12,13 +12,6 @@
     "JavaScript": [
       {
         "type": "subcategory",
-        "label": "NodeJS: Título creativo",
-        "ids": [
-          "Javascript/nodejs/nodejs-guia-1"
-        ]
-      },
-      {
-        "type": "subcategory",
         "label": "eris",
         "ids": [
           "Javascript/eris/eris-1", "Javascript/eris/eris-2", "Javascript/eris/eris-3"
@@ -49,13 +42,6 @@
       }
     ],
     "Julia": [
-      {
-        "type": "subcategory",
-        "label": "Julia: título creativo",
-        "ids": [
-          "julia/guía/jl-guia-1"
-        ]
-      },
       {
         "type": "subcategory",
         "label": "discord.jl",
