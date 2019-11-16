@@ -1,0 +1,7 @@
+.mdxCodeBlock {
+  background-color: transparent;
+  border-radius: var(--ifm-global-radius);
+  box-sizing: border-box;
+  font-family: inherit;
+  padding: 0;
+}
