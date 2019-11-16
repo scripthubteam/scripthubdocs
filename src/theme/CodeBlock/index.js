@@ -72,10 +72,10 @@ export default ({children, className: languageClassName}) => {
           <button
             ref={button}
             type="button"
-            aria-label="Copy code to clipboard"
+            aria-label="Copia el código al portapapeles"
             className={styles.copyButton}
             onClick={handleCopyCode}>
-            {showCopied ? 'Copied' : 'Copy'}
+            {showCopied ? 'Copiado' : 'Copiar'}
           </button>
         </div>
       )}

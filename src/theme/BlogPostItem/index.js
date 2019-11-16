@@ -23,18 +23,18 @@ function BlogPostItem(props) {
     const match = date.substring(0, 10).split('-');
     const year = match[0];
     const month = [
-      'January',
-      'February',
-      'March',
-      'April',
-      'May',
-      'June',
-      'July',
-      'August',
-      'September',
-      'October',
-      'November',
-      'December',
+      'Enero',
+      'Febrero',
+      'Marzo',
+      'Abril',
+      'Mayo',
+      'Junio',
+      'Julio',
+      'Agosto',
+      'Septiembre',
+      'Octubre',
+      'Noviembre',
+      'Diciembre',
     ][parseInt(match[1], 10) - 1];
     const day = parseInt(match[2], 10);
 
@@ -108,7 +108,7 @@ function BlogPostItem(props) {
         <div className="col text--right">
           {truncated && (
             <Link to={metadata.permalink}>
-              <strong>Read More</strong>
+              <strong>Leer más</strong>
             </Link>
           )}
         </div>
