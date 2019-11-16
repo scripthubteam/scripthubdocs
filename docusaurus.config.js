@@ -6,8 +6,8 @@
  */
 
 module.exports = {
-  title: 'Script Hub',
-  tagline: 'Programación de bots con Discord en español.',
+  title: 'Inicio',
+  tagline: 'Script Hub es una comunidad amplia de programadores y aficionados de todo el mundo que comparten sus propias experiencias.',
   url: 'https://scripthubteam.github.io',
   baseUrl: '/',
   favicon: 'img/logo-cord-raw.png',
@@ -72,10 +72,10 @@ module.exports = {
         },
       ],
       logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'https://docusaurus.io/img/oss_logo.png',
+        alt: 'Script Hub',
+        src: '',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Script Hub. Built with Docusaurus.`,
     },
   },
   presets: [
