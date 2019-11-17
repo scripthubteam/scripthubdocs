@@ -9,6 +9,15 @@
         ]
       }
     ],
+    "Java": [
+      {
+        "type": "subcategory",
+        "label": "JDA",
+        "ids": [
+          "java/jda/jda-1", "java/jda/jda-2", "java/jda/jda-3", "java/jda/jda-4"
+        ]
+      }
+    ],
     "JavaScript": [
       {
         "type": "subcategory",

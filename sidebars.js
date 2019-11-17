@@ -8,6 +8,15 @@
 module.exports = {
   "docs": {
     "Inicio": ['home', 'indice'],
+    "Java": [
+      {
+        "type": "category",
+        "label": "JDA",
+        "items": [
+          "java/jda/jda-1", "java/jda/jda-2", "java/jda/jda-3", "java/jda/jda-4"
+        ]
+      }
+    ],
     "JavaScript": [
       {
         "type": "category",

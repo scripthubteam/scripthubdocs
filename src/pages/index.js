@@ -19,7 +19,7 @@ const features = [
     imageUrl: 'img/logo-cord-raw.png',
     description: (
       <>
-        Nuestra comunidad está siempre activa y dispuesta a ayudarte en lo que necesites.
+        Se formó con la visión de intercambiar opiniones e ideas con el fin de mantener un ambiente agradable en el que todos puedan participar en discusiones de interés personal.
       </>
     ),
   },
@@ -28,7 +28,7 @@ const features = [
     imageUrl: 'img/logo-cord-raw.png',
     description: (
       <>
-        Lorem ipsum
+        Actualizamos constantemente nuestro contenido. Trabajamos arduamente para brindar el mejor contenido de toda la web.
       </>
     ),
   },
@@ -37,7 +37,7 @@ const features = [
     imageUrl: 'img/logo-cord-raw.png',
     description: (
       <>
-        Lorem ipsum
+        Todos nuestros proyectos son de código abierto y pueden ser encontrados en nuestro github.
       </>
     ),
   },

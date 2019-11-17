@@ -11,6 +11,8 @@ sidebar_label: Índice
 ## Listado y estatus de las guías
 Listado de guías disponibles. Se muestra el lenguaje de programación del módulo y dirección del contenido de la misma.
 
+* Java
+    * [JDA](java/jda/jda-1) - Versión: **1.0.1** - Escritores: [LeCuay](), [Deivid]()
 * Javascript
     * [eris](Javascript/eris/eris-1) - Versión: **1.0.0** - Escritor: [Lau](https://github.com/Lauuu)
     * [discord.js](Javascript/djs/djs-1) - Versión: **1.5.1** - Escritores: [Lau](https://github.com/Lauuu), [Nakido](https://github.com/Nakido), [MrDevsaider](https://github.com/MrDevsaider)
