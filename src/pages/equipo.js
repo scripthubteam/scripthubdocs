@@ -9,43 +9,43 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 const teams = [
     {
       title: <>Lauuu</>,
-      imageUrl: 'img/lauu.jpg',
+      imageUrl: 'https://avatars2.githubusercontent.com/u/33169908',
     },
     {
       title: <>Devsaider</>,
-      imageUrl: 'img/dev.jpg',
+      imageUrl: 'https://avatars0.githubusercontent.com/u/14142484',
     },
     {
       title: <>Monspeet</>,
-      imageUrl: 'img/bloodbath.jpg',
+      imageUrl: 'https://avatars3.githubusercontent.com/u/36456999',
     },
     {
       title: <>Tati</>,
-      imageUrl: 'img/tati.png',
+      imageUrl: 'https://avatars0.githubusercontent.com/u/45135760',
     },
     {
       title: <>Agate</>,
-      imageUrl: 'img/agate.png',
+      imageUrl: 'https://avatars1.githubusercontent.com/u/42282680',
     },
     {
       title: <>GameBoy</>,
-      imageUrl: 'img/gameboy.jpg',
+      imageUrl: 'https://avatars2.githubusercontent.com/u/19270998',
     },
     {
       title: <>Zhyntox</>,
-      imageUrl: 'img/josue.png',
+      imageUrl: 'https://avatars1.githubusercontent.com/u/39054467',
     },
     {
       title: <>Mon</>,
-      imageUrl: 'img/mon.png',
+      imageUrl: 'https://avatars1.githubusercontent.com/u/54691517',
     },
     {
       title: <>Axelito</>,
-      imageUrl: 'img/agate.png',
+      imageUrl: 'img/logo-cord-raw.png',
     },
     {
       title: <>iClu</>,
-      imageUrl: 'img/agate.png',
+      imageUrl: 'img/logo-cord-raw.png',
     }
   ];
 

@@ -17,26 +17,26 @@ module.exports = {
         ]
       }
     ],
-    "JavaScript": [
+    "javascript": [
       {
         "type": "category",
-        "label": "JavaScript: Conceptos básicos",
+        "label": "javascript: Conceptos básicos",
         "items": [
-          "Javascript/guia-javascript/js-guia-1", "Javascript/guia-javascript/js-guia-2", "Javascript/guia-javascript/js-guia-3", "Javascript/guia-javascript/js-guia-4", "Javascript/guia-javascript/js-guia-5"
+          "javascript/guia-javascript/js-guia-1", "javascript/guia-javascript/js-guia-2", "javascript/guia-javascript/js-guia-3", "javascript/guia-javascript/js-guia-4", "javascript/guia-javascript/js-guia-5"
         ]
       },
       {
         "type": "category",
         "label": "eris",
         "items": [
-          "Javascript/eris/eris-1", "Javascript/eris/eris-2", "Javascript/eris/eris-3"
+          "javascript/eris/eris-1", "javascript/eris/eris-2", "javascript/eris/eris-3"
         ]
       },
       {
         "type": "category",
         "label": "discord.js",
         "items": [
-          "Javascript/djs/djs-1", "Javascript/djs/djs-2", "Javascript/djs/djs-3"
+          "javascript/djs/djs-1", "javascript/djs/djs-2", "javascript/djs/djs-3"
         ]
       }
     ],
