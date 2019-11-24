@@ -8,7 +8,7 @@ sidebar_label: Sobre nosotros
 
 Nuestras guías te capacitan a estar seguro de lo que adquieras aquí, ya sea para un proyecto pequeño u otro motivo en común.
 
-Te brindamos los recursos más importantes para comenzar a programar en diferentes lenguajes de programación, también te acompañamos durante el desarrollo de tu proyecto, y
+Te brindamos los recursos más importantes para comenzar a programar en diferentes lenguajes de programación y también te acompañamos durante el desarrollo de tu proyecto.
 
 Después de poner en práctica tu conocimiento adquirido, podrás:
 

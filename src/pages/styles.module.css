@@ -41,3 +41,9 @@
   height: 200px;
   width: 200px;
 }
+
+.circularImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+}

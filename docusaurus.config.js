@@ -23,6 +23,7 @@ module.exports = {
       links: [
         {to: 'docs/home', label: 'Documentación', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'equipo', label: 'Equipo', position: 'left'},
         {
           href: 'https://github.com/scripthubteam/scripthubteam.github.io',
           label: 'GitHub',
