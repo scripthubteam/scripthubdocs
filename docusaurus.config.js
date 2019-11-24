@@ -76,7 +76,7 @@ module.exports = {
         alt: 'Script Hub',
         src: '',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Script Hub. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Script Hub.`,
     },
   },
   presets: [
