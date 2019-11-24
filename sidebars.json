@@ -21,6 +21,13 @@
     "JavaScript": [
       {
         "type": "subcategory",
+        "label": "JavaScript: Conceptos básicos",
+        "ids": [
+          "Javascript/guia-javascript/js-guia-1", "Javascript/guia-javascript/js-guia-2", "Javascript/guia-javascript/js-guia-3", "Javascript/guia-javascript/js-guia-4", "Javascript/guia-javascript/js-guia-5"
+        ]
+      },
+      {
+        "type": "subcategory",
         "label": "eris",
         "ids": [
           "Javascript/eris/eris-1", "Javascript/eris/eris-2", "Javascript/eris/eris-3"

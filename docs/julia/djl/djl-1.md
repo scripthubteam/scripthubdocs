@@ -6,7 +6,7 @@ sidebar_label: ¿Qué es discord.jl?
 
 > **<i class="fas fa-users"></i> Editores:** [Xh4h](https://github.com/Xh4h), [Lau](https://github.com/Lauuu)
 
-<font size="5"> **A continuación, debes tomar en cuenta los siguientes conceptos antes de comenzar con la guía:** </font>
+**A continuación, debes tomar en cuenta los siguientes conceptos antes de comenzar con la guía:**
 
 **¿Qué es discord.jl?** `Espacio de trabajo`
 

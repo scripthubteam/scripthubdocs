@@ -20,6 +20,13 @@ module.exports = {
     "JavaScript": [
       {
         "type": "category",
+        "label": "JavaScript: Conceptos básicos",
+        "items": [
+          "Javascript/guia-javascript/js-guia-1", "Javascript/guia-javascript/js-guia-2", "Javascript/guia-javascript/js-guia-3", "Javascript/guia-javascript/js-guia-4", "Javascript/guia-javascript/js-guia-5"
+        ]
+      },
+      {
+        "type": "category",
         "label": "eris",
         "items": [
           "Javascript/eris/eris-1", "Javascript/eris/eris-2", "Javascript/eris/eris-3"

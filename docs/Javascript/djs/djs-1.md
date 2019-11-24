@@ -6,7 +6,7 @@ sidebar_label: ¿Qué es discord.js?
 
 > **<i class="fas fa-users"></i> Editores:** [Nakido](https://github.com/Nakido), [Lau](https://github.com/Lauuu), [MrDevsaider](https://github.com/MrDevsaider)
 
-<font size="5"> **A continuación, toma en cuenta estos conceptos antes de comenzar con la guía:** </font>
+**A continuación, toma en cuenta estos conceptos antes de comenzar con la guía:**
 
 * **¿Qué es discord.js?** `Espacio de Trabajo`
 

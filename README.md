@@ -1,5 +1,6 @@
 # Script Hub /docs BETA - 1.0b
 
+
 ## Novedades
 
 * Nuevo motor de renderizado con [Docusaurus](https://v2.docusaurus.io/), [React](https://es.reactjs.org/)
