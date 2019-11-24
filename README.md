@@ -1,6 +1,5 @@
 # Script Hub /docs BETA - 1.0b
 
-Versión beta pública de la documentación de **Script Hub** usando [Docusaurus 2.0](https://v2.docusaurus.io/). Mantenida exclusivamente por @MrDevsaider y @Laauuu.
 
 ## Novedades
 
