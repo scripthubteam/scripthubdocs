@@ -29,52 +29,52 @@ const teams = [
     {
       title: <>Lauuu</>,
       imageUrl: 'https://avatars2.githubusercontent.com/u/33169908',
-      info: "Entusiasta en la programación y comprometido con el trabajo.",
+      info: "Miembro del departamento general.",
     },
     {
       title: <>Devsaider</>,
       imageUrl: 'https://avatars0.githubusercontent.com/u/14142484',
-      info: "asd",
+      info: "Miembro del departamento general.",
     },
     {
       title: <>Monspeet</>,
       imageUrl: 'https://avatars3.githubusercontent.com/u/36456999',
-      info: "asd",
+      info: "Miembro del departamento general.",
     },
     {
       title: <>Tati</>,
       imageUrl: 'https://avatars0.githubusercontent.com/u/45135760',
-      info: "asd",
+      info: "Representante del departamento técnico.",
     },
     {
       title: <>Agate</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/42282680',
-      info: "asd",
-    },
-    {
-      title: <>GameBoy</>,
-      imageUrl: 'https://avatars2.githubusercontent.com/u/19270998',
-      info: "asd",
+      info: "Miembro del departamento técnico.",
     },
     {
       title: <>Zhyntox</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/39054467',
-      info: "asd",
+      info: "Representante del departamento comunitario.",
+    },
+    {
+      title: <>GameBoy</>,
+      imageUrl: "https://avatars2.githubusercontent.com/u/19270998",
+      info: "Miembro del departamento comunitario.",
     },
     {
       title: <>Mon</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/54691517',
-      info: "asd",
+      info: "Miembro del departamento de moderación.",
     },
     {
       title: <>Axelito</>,
       imageUrl: 'img/logo-cord-raw.png',
-      info: "asd",
+      info: "Miembro del departamento de moderación.",
     },
     {
       title: <>iClu</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
-      info: "asd",
+      info: "Miembro del departamento de moderación.",
     }
   ];
 
