@@ -45,7 +45,7 @@ const teams = [
     },
     {
       title: <>iClu</>,
-      imageUrl: 'img/logo-cord-raw.png',
+      imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
     }
   ];
 
@@ -53,13 +53,13 @@ function Index({imageUrl, title}) {
     const imgUrl = useBaseUrl(imageUrl);
     return (
       <div className={classnames('col col--4', styles.feature)}>
-        {imgUrl && (
-          <div className="text--center">
-            <img className={styles.circularImage} src={imgUrl} alt={title} />
+            {imgUrl && (
+              <div className="text--center">
+                <img className={styles.circularImage} src={imgUrl} alt={title} />
+              </div>
+            )}
+            <h2 align="center">{title}</h2><br/><br/>
           </div>
-        )}
-        <h2 align="center">{title}</h2><br/><br/>
-      </div>
     );
   }
 

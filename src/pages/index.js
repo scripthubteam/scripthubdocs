@@ -53,7 +53,7 @@ function Feature({imageUrl, title, description}) {
         </div>
       )}
       <h3>{title}</h3>
-      <p>{description}</p>
+      <p>{description}</p><br/>
     </div>
   );
 }
