@@ -16,7 +16,8 @@
     "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-glitch-effect": "^2.0.2"
+    "react-glitch-effect": "^2.0.2",
+    "react-icons": "^3.8.0"
   },
   "browserslist": {
     "production": [

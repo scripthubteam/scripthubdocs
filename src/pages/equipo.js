@@ -7,6 +7,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Fab from "@material-ui/core/Fab";
 import Tooltip from "@material-ui/core/Tooltip";
 import Avatar from "@material-ui/core/Avatar";
+import { FaGithub, FaTwitter } from 'react-icons/fa';
+import { IconContext } from "react-icons";
 
 const useStyles = makeStyles(theme => ({
   fab: {
@@ -97,7 +99,14 @@ function Index({imageUrl, title, info}) {
                 </Tooltip>
               </div>
             )}
-            <h2 align="center">{title}</h2><br/><br/>
+            <h2 align="center">{title}<br/>
+              <IconContext.Provider value={{ size: "1.2em" }}>
+                <FaGithub/>
+              </IconContext.Provider>
+              <IconContext.Provider value={{ size: "1.2em" }}>
+                <FaTwitter/>
+              </IconContext.Provider>
+            </h2>
       </div>
     );
   }

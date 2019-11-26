@@ -47,3 +47,9 @@
   height: 150px;
   border-radius: 150px;
 }
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
