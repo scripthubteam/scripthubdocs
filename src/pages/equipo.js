@@ -99,14 +99,13 @@ function Index({imageUrl, title, info}) {
                 </Tooltip>
               </div>
             )}
-            <h2 align="center">{title}<br/>
-              <IconContext.Provider value={{ size: "1.2em" }}>
-                <FaGithub/>
+            <h2 align="center">{title}</h2>
+            <div className={styles.icons} align="center">
+              <IconContext.Provider value={{ size: "1.8em" }}>
+                  <FaGithub/>
+                  <FaTwitter/>
               </IconContext.Provider>
-              <IconContext.Provider value={{ size: "1.2em" }}>
-                <FaTwitter/>
-              </IconContext.Provider>
-            </h2>
+            </div>
       </div>
     );
   }
