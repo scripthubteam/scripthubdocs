@@ -49,7 +49,10 @@
 }
 
 .icons {
-  padding-left: 20px;
-  padding-right: 20px;
   align-items: center;
+}
+
+.socialIcon {
+  padding-left: 15px;
+  padding-right: 15px;
 }
