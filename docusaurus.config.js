@@ -25,7 +25,7 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         {to: 'equipo', label: 'Equipo', position: 'left'},
         {
-          href: 'https://github.com/scripthubteam/scripthubteam.github.io',
+          href: 'https://github.com/scripthubteam/',
           label: 'GitHub',
           position: 'right',
         },
@@ -76,7 +76,7 @@ module.exports = {
         alt: 'Script Hub',
         src: '',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Script Hub. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Script Hub.`,
     },
   },
   presets: [

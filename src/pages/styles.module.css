@@ -15,7 +15,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: url("");
+  background-image: url("");
 }
 
 @media screen and (max-width: 966px) {
@@ -46,4 +46,13 @@
   width: 150px;
   height: 150px;
   border-radius: 150px;
+}
+
+.icons {
+  align-items: center;
+}
+
+.socialIcon {
+  padding-left: 15px;
+  padding-right: 15px;
 }
