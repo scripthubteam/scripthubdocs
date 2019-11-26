@@ -33,64 +33,74 @@ const teams = [
       imageUrl: 'https://avatars2.githubusercontent.com/u/33169908',
       info: "Miembro del departamento general.",
       gitUser: "https://github.com/Laauuu",
+      twUser: "https://twitter.com/scripthub",
     },
     {
       title: <>Devsaider</>,
       imageUrl: 'https://avatars0.githubusercontent.com/u/14142484',
       info: "Miembro del departamento general.",
       gitUser: "https://github.com/MrDevsaider",
+      twUser: "https://twitter.com/nzk_devsaider",
     },
     {
       title: <>Monspeet</>,
       imageUrl: 'https://avatars3.githubusercontent.com/u/36456999',
       info: "Miembro del departamento general.",
       gitUser: "https://github.com/MagicNeko15",
+      twUser: "https://twitter.com/BloodbathBoy16",
     },
     {
       title: <>Tati</>,
       imageUrl: 'https://avatars0.githubusercontent.com/u/45135760',
       info: "Representante del departamento técnico.",
       gitUser: "https://github.com/tati1206",
+      twUser: "https://twitter.com/",
     },
     {
       title: <>Agate</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/42282680',
       info: "Miembro del departamento técnico.",
       gitUser: "https://github.com/AgateDevelopment",
+      twUser: "https://twitter.com/",
     },
     {
       title: <>Zhyntox</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/39054467',
       info: "Representante del departamento comunitario.",
       gitUser: "https://github.com/Asynfur",
+      twUser: "https://twitter.com/",
     },
     {
       title: <>GameBoy</>,
       imageUrl: "https://avatars2.githubusercontent.com/u/19270998",
       info: "Miembro del departamento comunitario.",
       gitUser: "https://github.com/estebanDT30",
+      twUser: "https://twitter.com/",
     },
     {
       title: <>Mon</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/54691517',
       info: "Miembro del departamento de moderación.",
       gitUser: "https://github.com/wwmon",
+      twUser: "https://twitter.com/sadwhynot",
     },
     {
       title: <>Axelito</>,
       imageUrl: 'img/logo-cord-raw.png',
       info: "Miembro del departamento de moderación.",
       gitUser: "",
+      twUser: "https://twitter.com/",
     },
     {
       title: <>iClu</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
       info: "Miembro del departamento de moderación.",
       gitUser: "https://github.com/BulzyKrown",
+      twUser: "https://twitter.com/",
     }
   ];
 
-function Index({imageUrl, title, info, gitUser}) {
+function Index({imageUrl, title, info, gitUser, twUser}) {
     const imgUrl = useBaseUrl(imageUrl);
     const classes = useStyles();
     
@@ -113,7 +123,7 @@ function Index({imageUrl, title, info, gitUser}) {
             <div className={styles.icons} align="center">
               <IconContext.Provider value={{ size: "1.8em", color: "white" }}>
                 <a href={gitUser} className={styles.socialIcon}><FaGithub/></a>
-                <a href="https://react-icons.netlify.com/#/" className={styles.socialIcon}><FaTwitter/></a>
+                <a href={twUser} className={styles.socialIcon}><FaTwitter/></a>
               </IconContext.Provider>
             </div>
       </div>
