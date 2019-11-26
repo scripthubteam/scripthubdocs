@@ -112,8 +112,8 @@ function Index({imageUrl, title, info, gitUser}) {
             <h2 align="center">{title}</h2>
             <div className={styles.icons} align="center">
               <IconContext.Provider value={{ size: "1.8em", color: "white" }}>
-                  <a href={gitUser}><FaGithub/></a>
-                  <a href="https://react-icons.netlify.com/#/"><FaTwitter/></a>
+                <a href={gitUser} className={styles.socialIcon}><FaGithub/></a>
+                <a href="https://react-icons.netlify.com/#/" className={styles.socialIcon}><FaTwitter/></a>
               </IconContext.Provider>
             </div>
       </div>
