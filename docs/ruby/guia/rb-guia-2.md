@@ -1,9 +1,17 @@
 ---
-id: rb-guia-2
+id: nuestro primer programa
 title: Nuestro primer programa
 sidebar_label: Nuestro primer programa  
 ---
 
+## Hola Mundo
+Ya hemos instalado Ruby en el capítulo anterior y hemos dado una introducción al lenguaje, así que ahora nos tocará empezar a trabajar en él!
+
+Como en todo lenguaje que vamos aprendiendo, haremos un programa que muestre un hola mundo.
+
+En Ruby hay 2 formas de mostrar contenido en la terminal,  `puts` y  `print`. A continuación veremos en qué se diferencian para saber cuál elegir en cada caso.
+
+| puts | print |
 ## Hola Mundo
 Ya hemos instalado Ruby en el capítulo anterior y hemos dado una introducción al lenguaje, así que ahora nos tocará empezar a trabajar en él!
 

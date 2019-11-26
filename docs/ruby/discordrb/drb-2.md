@@ -1,5 +1,5 @@
 ---
-id: drb-2
+id: primeros pasos
 title: Primeros pasos
 sidebar_label: Primeros pasos  
 ---

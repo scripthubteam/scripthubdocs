@@ -33,7 +33,7 @@ const teams = [
       imageUrl: 'https://avatars2.githubusercontent.com/u/33169908',
       info: "Miembro del departamento general.",
       gitUser: "https://github.com/Laauuu",
-      twUser: "https://twitter.com/scripthub",
+      twUser: "https://twitter.com/ScriptHubTeam",
     },
     {
       title: <>Devsaider</>,
@@ -47,21 +47,21 @@ const teams = [
       imageUrl: 'https://avatars3.githubusercontent.com/u/36456999',
       info: "Miembro del departamento general.",
       gitUser: "https://github.com/MagicNeko15",
-      twUser: "https://twitter.com/BloodbathBoy16",
+      twUser: "https://twitter.com/NTB_Bloodbath",
     },
     {
       title: <>Tati</>,
       imageUrl: 'https://avatars0.githubusercontent.com/u/45135760',
       info: "Representante del departamento técnico.",
       gitUser: "https://github.com/tati1206",
-      twUser: "https://twitter.com/",
+      twUser: "https://twitter.com/ScriptHubTeam",
     },
     {
       title: <>Agate</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/42282680',
       info: "Miembro del departamento técnico.",
       gitUser: "https://github.com/AgateDevelopment",
-      twUser: "https://twitter.com/",
+      twUser: "https://twitter.com/agate_dev",
     },
     {
       title: <>Zhyntox</>,
@@ -75,7 +75,7 @@ const teams = [
       imageUrl: "https://avatars2.githubusercontent.com/u/19270998",
       info: "Miembro del departamento comunitario.",
       gitUser: "https://github.com/estebanDT30",
-      twUser: "https://twitter.com/",
+      twUser: "https://twitter.com/GameBoy0665",
     },
     {
       title: <>Mon</>,
@@ -89,7 +89,7 @@ const teams = [
       imageUrl: 'img/logo-cord-raw.png',
       info: "Miembro del departamento de moderación.",
       gitUser: "",
-      twUser: "https://twitter.com/",
+      twUser: "https://twitter.com/ScriptHubTeam",
     },
     {
       title: <>iClu</>,
