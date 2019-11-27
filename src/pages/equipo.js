@@ -111,7 +111,7 @@ function Index({imageUrl, title, info, gitUser, twUser}) {
                 <Tooltip title={info}>
                   <Fab color="primary" className={classes.fab}>
                     <Avatar
-                      alt="Remy Sharp"
+                      alt="Script Hub Team"
                       src={imgUrl}
                       className={classes.bigAvatar}
                     />

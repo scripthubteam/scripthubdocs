@@ -11,26 +11,31 @@ import classnames from 'classnames';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import styles from './styles.module.css';
 
-function FooterLink({item}) {
-  const toUrl = useBaseUrl(item.to);
+function FooterLink({to, href, label, ...props}) {
+  const toUrl = useBaseUrl(to);
   return (
     <Link
       className="footer__link-item"
-      {...item}
-      {...(item.href
+      {...(href
         ? {
             target: '_blank',
             rel: 'noopener noreferrer',
-            href: item.href,
+            href,
           }
         : {
             to: toUrl,
-          })}>
-      {item.label}
+          })}
+      {...props}>
+      {label}
     </Link>
   );
 }
+
+const FooterLogo = ({url, alt}) => (
+  <img className="footer__logo" alt={alt} src={url} />
+);
 
 function Footer() {
   const context = useDocusaurusContext();
@@ -62,11 +67,20 @@ function Footer() {
                 Array.isArray(linkItem.items) &&
                 linkItem.items.length > 0 ? (
                   <ul className="footer__items">
-                    {linkItem.items.map(item => (
-                      <li key={item.href || item.to} className="footer__item">
-                        <FooterLink item={item} />
-                      </li>
-                    ))}
+                    {linkItem.items.map((item, key) =>
+                      item.html ? (
+                        <div
+                          key={key}
+                          dangerouslySetInnerHTML={{
+                            __html: item.html,
+                          }}
+                        />
+                      ) : (
+                        <li key={item.href || item.to} className="footer__item">
+                          <FooterLink {...item} />
+                        </li>
+                      ),
+                    )}
                   </ul>
                 ) : null}
               </div>
@@ -77,7 +91,17 @@ function Footer() {
           <div className="text--center">
             {logo && logo.src && (
               <div className="margin-bottom--sm">
-                <img className="footer__logo" alt={logo.alt} src={logoUrl} />
+                {logo.href ? (
+                  <a
+                    href={logo.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.footerLogoLink}>
+                    <FooterLogo alt={logo.alt} url={logoUrl} />
+                  </a>
+                ) : (
+                  <FooterLogo alt={logo.alt} url={logoUrl} />
+                )}
               </div>
             )}
             {copyright}

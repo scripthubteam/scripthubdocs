@@ -10,7 +10,7 @@ module.exports = {
   tagline: 'Script Hub es una comunidad amplia de programadores y aficionados de todo el mundo que comparten sus propias experiencias.',
   url: 'https://scripthubteam.github.io',
   baseUrl: '/',
-  favicon: 'img/logo-cord-raw.png',
+  favicon: 'img/favicon/favico.ico',
   organizationName: 'scripthubteam', // Usually your GitHub org/user name.
   projectName: 'scripthubdocs', // Usually your repo name.
   themeConfig: {
@@ -18,7 +18,7 @@ module.exports = {
       title: 'Script Hub',
       logo: {
         alt: 'Script Hub',
-        src: 'img/logo-cord-raw.png',
+        src: 'img/Hubbie.svg',
       },
       links: [
         {to: 'docs/home', label: 'Documentación', position: 'left'},

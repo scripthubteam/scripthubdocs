@@ -11,18 +11,37 @@ import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import DocPaginator from '@theme/DocPaginator';
+import useTOCHighlight from '@theme/hooks/useTOCHighlight';
 
 import styles from './styles.module.css';
 
+const LINK_CLASS_NAME = 'contents__link';
+const ACTIVE_LINK_CLASS_NAME = 'contents__link--active';
+const TOP_OFFSET = 100;
+
+function DocTOC({headings}) {
+  useTOCHighlight(LINK_CLASS_NAME, ACTIVE_LINK_CLASS_NAME, TOP_OFFSET);
+  return (
+    <div className="col col--3">
+      <div className={styles.tableOfContents}>
+        <Headings headings={headings} />
+      </div>
+    </div>
+  );
+}
+
+/* eslint-disable jsx-a11y/control-has-associated-label */
 function Headings({headings, isChild}) {
   if (!headings.length) return null;
   return (
     <ul className={isChild ? '' : 'contents contents__left-border'}>
       {headings.map(heading => (
         <li key={heading.id}>
-          <a href={`#${heading.id}`} className="contents__link">
-            {heading.value}
-          </a>
+          <a
+            href={`#${heading.id}`}
+            className={LINK_CLASS_NAME}
+            dangerouslySetInnerHTML={{__html: heading.value}}
+          />
           <Headings isChild headings={heading.children} />
         </li>
       ))}
@@ -44,11 +63,17 @@ function DocItem(props) {
     lastUpdatedBy,
     keywords,
   } = metadata;
+  const {
+    frontMatter: {
+      hide_title: hideTitle,
+      hide_table_of_contents: hideTableOfContents,
+    },
+  } = DocContent;
 
   const metaImageUrl = siteUrl + useBaseUrl(metaImage);
 
   return (
-    <div>
+    <>
       <Head>
         {title && <title>{title}</title>}
         {description && <meta name="description" content={description} />}
@@ -70,12 +95,13 @@ function DocItem(props) {
           <div className="row">
             <div className="col">
               <div className={styles.docItemContainer}>
-                {!metadata.hide_title && (
-                  <header>
-                    <h1 className={styles.docTitle}>{metadata.title}</h1>
-                  </header>
-                )}
                 <article>
+                  {!hideTitle && (
+                    <header>
+                      <h1 className={styles.docTitle}>{metadata.title}</h1>
+                    </header>
+                  )}
+
                   <div className="markdown">
                     <DocContent />
                   </div>
@@ -115,11 +141,15 @@ function DocItem(props) {
                               {lastUpdatedAt && (
                                 <>
                                   on{' '}
-                                  <strong>
+                                  <time
+                                    dateTime={new Date(
+                                      lastUpdatedAt * 1000,
+                                    ).toISOString()}
+                                    className={styles.docLastUpdatedAt}>
                                     {new Date(
                                       lastUpdatedAt * 1000,
                                     ).toLocaleDateString()}
-                                  </strong>
+                                  </time>
                                   {lastUpdatedBy && ' '}
                                 </>
                               )}
@@ -148,17 +178,13 @@ function DocItem(props) {
                 </div>
               </div>
             </div>
-            {DocContent.rightToc && (
-              <div className="col col--3">
-                <div className={styles.tableOfContents}>
-                  <Headings headings={DocContent.rightToc} />
-                </div>
-              </div>
+            {!hideTableOfContents && DocContent.rightToc && (
+              <DocTOC headings={DocContent.rightToc} />
             )}
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

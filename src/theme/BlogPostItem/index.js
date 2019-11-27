@@ -14,43 +14,54 @@ import MDXComponents from '@theme/MDXComponents';
 
 import styles from './styles.module.css';
 
+const MONTHS = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
+
 function BlogPostItem(props) {
-  const {children, frontMatter, metadata, truncated} = props;
+  const {
+    children,
+    frontMatter,
+    metadata,
+    truncated,
+    isBlogPostPage = false,
+  } = props;
   const {date, permalink, tags} = metadata;
-  const {author, authorURL, authorTitle, authorFBID, title} = frontMatter;
+  const {author, title} = frontMatter;
+
+  const authorURL = frontMatter.author_url || frontMatter.authorURL;
+  const authorTitle = frontMatter.author_title || frontMatter.authorTitle;
+  const authorImageURL =
+    frontMatter.author_image_url || frontMatter.authorImageURL;
 
   const renderPostHeader = () => {
+    const TitleHeading = isBlogPostPage ? 'h1' : 'h2';
     const match = date.substring(0, 10).split('-');
     const year = match[0];
-    const month = [
-      'Enero',
-      'Febrero',
-      'Marzo',
-      'Abril',
-      'Mayo',
-      'Junio',
-      'Julio',
-      'Agosto',
-      'Septiembre',
-      'Octubre',
-      'Noviembre',
-      'Diciembre',
-    ][parseInt(match[1], 10) - 1];
+    const month = MONTHS[parseInt(match[1], 10) - 1];
     const day = parseInt(match[2], 10);
-
-    const authorImageURL = authorFBID
-      ? `https://graph.facebook.com/${authorFBID}/picture/?height=200&width=200`
-      : frontMatter.authorImageURL;
 
     return (
       <header>
-        <h1 className={classnames('margin-bottom--sm', styles.blogPostTitle)}>
-          <Link to={permalink}>{title}</Link>
-        </h1>
+        <TitleHeading
+          className={classnames('margin-bottom--sm', styles.blogPostTitle)}>
+          {isBlogPostPage ? title : <Link to={permalink}>{title}</Link>}
+        </TitleHeading>
         <div className="margin-bottom--sm">
-          <small>
+          <time dateTime={date} className={styles.blogPostDate}>
             {month} {day}, {year}
-          </small>
+          </time>
         </div>
         <div className="avatar margin-bottom--md">
           {authorImageURL && (
@@ -84,15 +95,15 @@ function BlogPostItem(props) {
   };
 
   return (
-    <div>
+    <article className={!isBlogPostPage ? 'margin-bottom--xl' : undefined}>
       {renderPostHeader()}
-      <article className="markdown">
+      <section className="markdown">
         <MDXProvider components={MDXComponents}>{children}</MDXProvider>
-      </article>
-      <div className="row margin-vert--lg">
-        <div className="col">
+      </section>
+      {(tags.length > 0 || truncated) && (
+        <footer className="row margin-vert--lg">
           {tags.length > 0 && (
-            <>
+            <div className="col">
               <strong>Tags:</strong>
               {tags.map(({label, permalink: tagPermalink}) => (
                 <Link
@@ -102,18 +113,20 @@ function BlogPostItem(props) {
                   {label}
                 </Link>
               ))}
-            </>
+            </div>
           )}
-        </div>
-        <div className="col text--right">
           {truncated && (
-            <Link to={metadata.permalink}>
-              <strong>Leer más</strong>
-            </Link>
+            <div className="col text--right">
+              <Link
+                to={metadata.permalink}
+                aria-label={`Read more about ${title}`}>
+                <strong>Read More</strong>
+              </Link>
+            </div>
           )}
-        </div>
-      </div>
-    </div>
+        </footer>
+      )}
+    </article>
   );
 }
 

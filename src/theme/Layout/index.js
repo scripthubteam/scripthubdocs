@@ -37,11 +37,9 @@ function Layout(props) {
   const metaImageUrl = siteUrl + useBaseUrl(metaImage);
   const faviconUrl = useBaseUrl(favicon);
   return (
-    <React.Fragment>
+    <>
       <Head>
-        <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta name="viewport" content="width=device-width" />
         {metaTitle && <title>{metaTitle}</title>}
         {metaTitle && <meta property="og:title" content={metaTitle} />}
         {favicon && <link rel="shortcut icon" href={faviconUrl} />}
@@ -61,9 +59,9 @@ function Layout(props) {
         <meta name="twitter:card" content="summary" />
       </Head>
       <Navbar />
-      {children}
+      <div className="main-wrapper">{children}</div>
       {!noFooter && <Footer />}
-    </React.Fragment>
+    </>
   );
 }
 
