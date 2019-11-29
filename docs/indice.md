@@ -14,7 +14,7 @@ Listado de guías disponibles. Se muestra el lenguaje de programación del módu
 * Java
     * [JDA](java/jda/jda-1) - Versión: **1.0.1** - Escritores: [LeCuay](), [Deivid]()
 * Javascript
-    * [JavaScript: Conceptos básico](Javascript/eris/js-guia-1) - Versión: **1.0.0** - Escritor: [Lau](https://github.com/Lauuu)
+    * [JavaScript: Conceptos básico](Javascript/guia-javascript/js-guia-1) - Versión: **1.0.0** - Escritor: [Lau](https://github.com/Lauuu)
     * [eris](Javascript/eris/eris-1) - Versión: **1.0.0** - Escritor: [Lau](https://github.com/Lauuu)
     * [discord.js](Javascript/djs/djs-1) - Versión: **1.5.1** - Escritores: [Lau](https://github.com/Lauuu), [Nakido](https://github.com/Nakido), [MrDevsaider](https://github.com/MrDevsaider)
 * Ruby
