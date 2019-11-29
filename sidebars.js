@@ -20,7 +20,7 @@ module.exports = {
     "javascript": [
       {
         "type": "category",
-        "label": "javascript: Conceptos básicos",
+        "label": "Javascript: Conceptos básicos",
         "items": [
           "javascript/guia-javascript/js-guia-1", "javascript/guia-javascript/js-guia-2", "javascript/guia-javascript/js-guia-3", "javascript/guia-javascript/js-guia-4", "javascript/guia-javascript/js-guia-5"
         ]

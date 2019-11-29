@@ -85,13 +85,6 @@ const teams = [
       twUser: "https://twitter.com/sadwhynot",
     },
     {
-      title: <>Axelito</>,
-      imageUrl: 'img/logo-cord-raw.png',
-      info: "Miembro del departamento de moderación.",
-      gitUser: "",
-      twUser: "https://twitter.com/ScriptHubTeam",
-    },
-    {
       title: <>iClu</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
       info: "Miembro del departamento de moderación.",
@@ -99,7 +92,6 @@ const teams = [
       twUser: "https://twitter.com/",
     }
   ];
-
 function Index({imageUrl, title, info, gitUser, twUser}) {
     const imgUrl = useBaseUrl(imageUrl);
     const classes = useStyles();
@@ -108,7 +100,7 @@ function Index({imageUrl, title, info, gitUser, twUser}) {
       <div className={classnames('col col--4', styles.feature)}>
             {imgUrl && (
               <div className="text--center">
-                <Tooltip title={info}>
+                <Tooltip title={info} placement='top'>
                   <Fab color="primary" className={classes.fab}>
                     <Avatar
                       alt="Script Hub Team"
@@ -121,12 +113,14 @@ function Index({imageUrl, title, info, gitUser, twUser}) {
             )}
             <h2 align="center">{title}</h2>
             <div className={styles.icons} align="center">
-              <IconContext.Provider value={{ size: "1.8em", color: "white" }}>
+              <IconContext.Provider value={{ size: "1.8em", color: "black" }}>
                 <a href={gitUser} className={styles.socialIcon}><FaGithub/></a>
                 <a href={twUser} className={styles.socialIcon}><FaTwitter/></a>
               </IconContext.Provider>
             </div>
       </div>
+
+            
     );
   }
 

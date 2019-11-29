@@ -14,12 +14,14 @@ module.exports = {
   organizationName: 'scripthubteam', // Usually your GitHub org/user name.
   projectName: 'scripthubdocs', // Usually your repo name.
   themeConfig: {
+    //navbar
     navbar: {
-      title: 'Script Hub',
+      title: '',
       logo: {
         alt: 'Script Hub',
-        src: 'img/Hubbie.svg',
+        src: 'img/logonavbar.png',
       },
+      //links
       links: [
         {to: 'docs/home', label: 'Documentación', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},

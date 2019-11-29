@@ -16,7 +16,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Comunidad</>,
-    imageUrl: 'img/Hubbie.svg',
+    imageUrl: 'img/undraw_hubbie.svg',
     description: (
       <>
         Se formó con la visión de intercambiar opiniones e ideas con el fin de mantener un ambiente agradable en el que todos puedan participar en discusiones de interés personal.
@@ -25,7 +25,7 @@ const features = [
   },
   {
     title: <>Siempre reinventándonos</>,
-    imageUrl: 'img/Hubbie.svg',
+    imageUrl: 'img/undraw_reinv.svg',
     description: (
       <>
         Actualizamos constantemente nuestro contenido. Trabajamos arduamente para brindar el mejor contenido de toda la web.
@@ -34,7 +34,7 @@ const features = [
   },
   {
     title: <>Código abierto</>,
-    imageUrl: 'img/Hubbie.svg',
+    imageUrl: 'img/undraw_opensource.svg',
     description: (
       <>
         Todos nuestros proyectos son de código abierto y pueden ser encontrados en nuestro github.
