@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React, {useState} from 'react';
+import React, {useState, useCallback} from 'react';
 import classnames from 'classnames';
 
 import Link from '@docusaurus/Link';
@@ -14,7 +14,7 @@ import styles from './styles.module.css';
 
 const MOBILE_TOGGLE_SIZE = 24;
 
-function DocSidebarItem({item, onItemClick}) {
+function DocSidebarItem({item, onItemClick, collapsible}) {
   const {items, href, label, type} = item;
   const [collapsed, setCollapsed] = useState(item.collapsed);
   const [prevCollapsedProp, setPreviousCollapsedProp] = useState(null);
@@ -27,32 +27,41 @@ function DocSidebarItem({item, onItemClick}) {
     setCollapsed(item.collapsed);
   }
 
+  const handleItemClick = useCallback(e => {
+    e.preventDefault();
+    setCollapsed(state => !state);
+  });
+
   switch (type) {
     case 'category':
       return (
-        <li
-          className={classnames('menu__list-item', {
-            'menu__list-item--collapsed': collapsed,
-          })}
-          key={label}>
-          <a
-            className={classnames('menu__link', 'menu__link--sublist', {
-              'menu__link--active': !item.collapsed,
+        items.length > 0 && (
+          <li
+            className={classnames('menu__list-item', {
+              'menu__list-item--collapsed': collapsed,
             })}
-            href="#!"
-            onClick={() => setCollapsed(!collapsed)}>
-            {label}
-          </a>
-          <ul className="menu__list">
-            {items.map(childItem => (
-              <DocSidebarItem
-                key={childItem.label}
-                item={childItem}
-                onItemClick={onItemClick}
-              />
-            ))}
-          </ul>
-        </li>
+            key={label}>
+            <a
+              className={classnames('menu__link', {
+                'menu__link--sublist': collapsible,
+                'menu__link--active': collapsible && !item.collapsed,
+              })}
+              href="#!"
+              onClick={collapsible ? handleItemClick : undefined}>
+              {label}
+            </a>
+            <ul className="menu__list">
+              {items.map(childItem => (
+                <DocSidebarItem
+                  key={childItem.label}
+                  item={childItem}
+                  onItemClick={onItemClick}
+                  collapsible={collapsible}
+                />
+              ))}
+            </ul>
+          </li>
+        )
       );
 
     case 'link':
@@ -95,7 +104,12 @@ function mutateSidebarCollapsingState(item, location) {
 function DocSidebar(props) {
   const [showResponsiveSidebar, setShowResponsiveSidebar] = useState(false);
 
-  const {docsSidebars, location, sidebar: currentSidebar} = props;
+  const {
+    docsSidebars,
+    location,
+    sidebar: currentSidebar,
+    sidebarCollapsible,
+  } = props;
 
   if (!currentSidebar) {
     return null;
@@ -109,9 +123,11 @@ function DocSidebar(props) {
     );
   }
 
-  sidebarData.forEach(sidebarItem =>
-    mutateSidebarCollapsingState(sidebarItem, location),
-  );
+  if (sidebarCollapsible) {
+    sidebarData.forEach(sidebarItem =>
+      mutateSidebarCollapsingState(sidebarItem, location),
+    );
+  }
 
   return (
     <div className={styles.sidebar}>
@@ -155,15 +171,19 @@ function DocSidebar(props) {
           )}
         </button>
         <ul className="menu__list">
-          {sidebarData.map(item => (
-            <DocSidebarItem
-              key={item.label}
-              item={item}
-              onItemClick={() => {
-                setShowResponsiveSidebar(false);
-              }}
-            />
-          ))}
+          {sidebarData.map(
+            item =>
+              item.items.length > 0 && (
+                <DocSidebarItem
+                  key={item.label}
+                  item={item}
+                  onItemClick={() => {
+                    setShowResponsiveSidebar(false);
+                  }}
+                  collapsible={sidebarCollapsible}
+                />
+              ),
+          )}
         </ul>
       </div>
     </div>

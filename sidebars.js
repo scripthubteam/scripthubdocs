@@ -20,7 +20,7 @@ module.exports = {
     "javascript": [
       {
         "type": "category",
-        "label": "javascript: Conceptos básicos",
+        "label": "Javascript: Conceptos básicos",
         "items": [
           "javascript/guia-javascript/js-guia-1", "javascript/guia-javascript/js-guia-2", "javascript/guia-javascript/js-guia-3", "javascript/guia-javascript/js-guia-4", "javascript/guia-javascript/js-guia-5"
         ]
@@ -45,14 +45,14 @@ module.exports = {
         "type": "category",
         "label": "Ruby: título creativo",
         "items": [
-          "ruby/guia/rb-guia-1", "ruby/guia/rb-guia-2"
+          "ruby/guia/introduccion", "ruby/guia/nuestro primer programa", "ruby/guia/adentrandonos mas", "ruby/guia/programacion orientada a objetos"
         ]
       },
       {
         "type": "category",
         "label": "discordrb",
         "items": [
-          "ruby/discordrb/drb-1", "ruby/discordrb/drb-2"
+          "ruby/discordrb/que es discordrb", "ruby/discordrb/primeros pasos"
         ]
       }
     ],

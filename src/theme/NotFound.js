@@ -18,9 +18,9 @@ function NotFound() {
           <div className="col col--6 col--offset-2">
             
              <GlitchClip>
-       <h1>Página no encontrada</h1>
+       <h1><GlitchText>Página no encontrada</GlitchText></h1>
        </GlitchClip>
-       <p>Es posible que lo que intentes buscar jamás existió. <GlitchText>¿Lo recuerdas?</GlitchText></p>
+       <p>Es posible que lo que intentes buscar jamás existió. ¿Lo recuerdas?</p>
        <p><img src="https://i.gifer.com/45y2.gif"></img></p>
           </div>
         </div>

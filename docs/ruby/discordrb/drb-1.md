@@ -1,5 +1,5 @@
 ---
-id: drb-1
+id: que es discordrb
 title: ¿Qué es discordrb? 
 sidebar_label: ¿Qué es discordrb?  
 ---

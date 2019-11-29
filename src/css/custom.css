@@ -13,12 +13,48 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #F7671E;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
-  
+}
+
+::-moz-selection {
+  background: #F7671E; /* Gecko Browsers */
+}
+
+::selection {
+  background: #F7671E; /* WebKit/Blink Browsers */
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #F7671E;
+  outline: 1px solid slategrey;
+}
+
+.navbar .navbar__logo {
+    height: 160%;
+    margin-right: 0.5rem;
+}
+
+.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+    color: #ffffff;
+}
+
+.hero.hero--primary {
+    --ifm-hero-background-color: var(--ifm-color-primary);
+    --ifm-hero-text-color: var(--ifm-font-base-color-inverse);
+    background-image: url(https://imagenes.universia.net/gc/net/images/educacion/c/cu/cua/cuales-lenguajes-programacion-demandados-empresas.jpg);
+    color: var(--ifm-hero-text-color);
 }

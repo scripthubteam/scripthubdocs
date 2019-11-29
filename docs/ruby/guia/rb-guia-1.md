@@ -1,5 +1,5 @@
 ---
-id: rb-guia-1
+id: introduccion
 title: Ruby - Título creativo
 sidebar_label: Introducción
 ---
