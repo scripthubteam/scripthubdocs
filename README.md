@@ -1,4 +1,4 @@
-# Script Hub /docs BETA - 1.5b
+# Script Hub /docs BETA - 2.0b
 
 
 ## Novedades
