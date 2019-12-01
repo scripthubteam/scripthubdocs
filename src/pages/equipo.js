@@ -57,18 +57,11 @@ const teams = [
       twUser: "https://twitter.com/ScriptHubTeam",
     },
     {
-      title: <>Agate</>,
-      imageUrl: 'https://avatars1.githubusercontent.com/u/42282680',
-      info: "Miembro del departamento técnico.",
-      gitUser: "https://github.com/AgateDevelopment",
-      twUser: "https://twitter.com/agate_dev",
-    },
-    {
       title: <>Zhyntox</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/39054467',
       info: "Representante del departamento comunitario.",
       gitUser: "https://github.com/Asynfur",
-      twUser: "https://twitter.com/",
+      twUser: "https://twitter.com/ScriptHubTeam",
     },
     {
       title: <>GameBoy</>,
@@ -85,11 +78,18 @@ const teams = [
       twUser: "https://twitter.com/sadwhynot",
     },
     {
+      title: <>Gab</>,
+      imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
+      info: "Miembro del departamento de moderación.",
+      gitUser: "https://github.com/gragasllenger",
+      twUser: "https://twitter.com/gg_ilenger",
+    }
+    {
       title: <>iClu</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
       info: "Miembro del departamento de moderación.",
       gitUser: "https://github.com/BulzyKrown",
-      twUser: "https://twitter.com/",
+      twUser: "https://twitter.com/ScriptHubTeam",
     }
   ];
 function Index({imageUrl, title, info, gitUser, twUser}) {
