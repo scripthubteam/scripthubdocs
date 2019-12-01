@@ -83,7 +83,7 @@ const teams = [
       info: "Miembro del departamento de moderación.",
       gitUser: "https://github.com/gragasllenger",
       twUser: "https://twitter.com/gg_ilenger",
-    }
+    },
     {
       title: <>iClu</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
