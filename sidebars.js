@@ -17,24 +17,24 @@ module.exports = {
         ]
       }
     ],
-    "javascript": [
+    "JavaScript": [
       {
         "type": "category",
-        "label": "Javascript: Conceptos básicos",
+        "label": "Conceptos básicos",
         "items": [
           "javascript/guia-javascript/js-guia-1", "javascript/guia-javascript/js-guia-2", "javascript/guia-javascript/js-guia-3", "javascript/guia-javascript/js-guia-4", "javascript/guia-javascript/js-guia-5"
         ]
       },
       {
         "type": "category",
-        "label": "eris",
+        "label": "Eris",
         "items": [
           "javascript/eris/eris-1", "javascript/eris/eris-2", "javascript/eris/eris-3"
         ]
       },
       {
         "type": "category",
-        "label": "discord.js",
+        "label": "Discord.js",
         "items": [
           "javascript/djs/djs-1", "javascript/djs/djs-2", "javascript/djs/djs-3"
         ]
@@ -43,14 +43,14 @@ module.exports = {
     "Ruby": [
       {
         "type": "category",
-        "label": "Ruby: título creativo",
+        "label": "Conceptos básicos y semi-avanzados",
         "items": [
           "ruby/guia/introduccion", "ruby/guia/nuestro primer programa", "ruby/guia/adentrandonos mas", "ruby/guia/programacion orientada a objetos"
         ]
       },
       {
         "type": "category",
-        "label": "discordrb",
+        "label": "Discordrb",
         "items": [
           "ruby/discordrb/que es discordrb", "ruby/discordrb/primeros pasos"
         ]
@@ -59,7 +59,7 @@ module.exports = {
     "Julia": [
       {
         "type": "category",
-        "label": "discord.jl",
+        "label": "Discord.jl",
         "items": [
           "julia/djl/djl-1", "julia/djl/djl-2"
         ]
