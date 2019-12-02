@@ -11,7 +11,7 @@ sidebar_label: Eventos, utilización y
 
 ## ¿Qué es un evento?
 
-!> **Este es un reforzamiento del concepto de Eventos de discord.js que viste en [Primeros Pasos](Javascript/djs/djs-2.md)**. Si no lo has leído todavía, por favor hazlo. Si ya entiendes los pasos básicos de discord.js, puedes seguir en esta página.
+!> **Este es un reforzamiento del concepto de Eventos de discord.js que viste en [Primeros Pasos](javascript/djs/djs-2.md)**. Si no lo has leído todavía, por favor hazlo. Si ya entiendes los pasos básicos de discord.js, puedes seguir en esta página.
 
 **discord.js** dispara un evento cada vez que sucede algo. Por ejemplo, un evento se activa cuando se crea, borra o edita un mensaje. Un evento se activa cada vez que se crea, borra o edita un canal.
 

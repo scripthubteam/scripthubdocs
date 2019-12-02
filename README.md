@@ -37,7 +37,7 @@ Este comando genera contenido estático en el directorio `build` y se puede ejec
 ### Deployment
 
 ```
-$ GIT_USER=<Usuario de GitHub> USE_SSH=1 yarn deploy
+$ yarn deploy
 ```
 
 Si utilizarás **Github Pages** para hosting, este comando es una forma conveniente de *buildear* el sitio web y pasar al branch `gh-pages`.
