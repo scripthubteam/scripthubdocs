@@ -37,7 +37,7 @@ const features = [
     imageUrl: 'img/undraw_opensource.svg',
     description: (
       <>
-        Todos nuestros proyectos son de código abierto y pueden ser encontrados en nuestro github.
+        Todos nuestros proyectos son de código abierto y pueden ser encontrados en nuestro GitHub.
       </>
     ),
   },

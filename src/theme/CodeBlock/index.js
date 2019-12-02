@@ -96,7 +96,7 @@ export default ({children, className: languageClassName, metastring}) => {
             aria-label="Copy code to clipboard"
             className={styles.copyButton}
             onClick={handleCopyCode}>
-            {showCopied ? 'Copied' : 'Copy'}
+            {showCopied ? 'Copiado' : 'Copiar'}
           </button>
         </div>
       )}
