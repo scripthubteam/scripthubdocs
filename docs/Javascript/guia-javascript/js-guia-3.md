@@ -25,7 +25,7 @@ Retornará la primera posición de un string específico.
 ```js
 var str = "Esta es una cadena de texto, mucho texto";
 str.indexOf("texto");
-//Output: 5
+//Output: 22
 ```
 
 ### lastIndexOf
