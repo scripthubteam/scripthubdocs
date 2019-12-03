@@ -5,7 +5,7 @@ sidebar_label: Primer vistazo a JavaScript
 ---
 
 ### Lo básico pero indispensable
-## Console.log()
+## console.log()
 Comenzaremos viendo la función `console.log()`, la cual nos permitirá "imprimir" un mensaje en nuestra consola.
 
 ```js
