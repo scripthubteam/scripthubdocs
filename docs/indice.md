@@ -6,7 +6,7 @@ sidebar_label: Índice
 
 * [Listado y estatus de las guías](#listado-y-estatus-de-las-guías)
 
-> **¿Necesitas ayuda con nuestra documentación?** Visita nuestro servidor de Discord. [Haz clic aquí!](https://discord.gg/KSDevqR)
+> **¿Necesitas ayuda con nuestra documentación?** Visita nuestro servidor de Discord. [¡Clic aquí!](https://discordapp.com/invite/se6Ncjr)
 
 ## Listado y estatus de las guías
 Listado de guías disponibles. Se muestra el lenguaje de programación del módulo y dirección del contenido de la misma.
