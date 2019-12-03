@@ -79,11 +79,11 @@ const teams = [
     },
     {
       title: <>Gab</>,
-      imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
+      imageUrl: 'https://avatars3.githubusercontent.com/u/58276181',
       info: "Miembro del departamento de moderación.",
       gitUser: "https://github.com/gragasllenger",
       twUser: "https://twitter.com/gg_ilenger",
-    }
+    },
     {
       title: <>iClu</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
