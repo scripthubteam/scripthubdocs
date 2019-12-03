@@ -5,42 +5,45 @@ sidebar_label: Condicionales
 ---
 
 # Condicionales
+
 En alguna parte de nuestro código necesitaremos comprobar que si x condición se cumple, se ejecuta un código o no. Para ello existen las estructuras condicionales.
 
-## if y else
+## if/else
+
 Al utilizar `if` podemos comprobar que sí una condición se cumple, se ejecute una parte del código. Usando `else` podemos establecer una alternativa, aunque es opcional.
 
 ```js
 if (condicion) {
-  //código a ejecutarse si se cumple la condición
+  //Código a ejecutarse si se cumple la condición
 } else {
-  //código a ejecutarse si no se cumple la condición
+  //Código a ejecutarse si no se cumple la condición
 }
 ```
 
 Por ejemplo, comprobaremos si mi edad es mayor a 10.
 
 ```js
-var miEdad = 20
+var miEdad = 20;
 if (miEdad > 10) {
-  console.log("Yay")
+  console.log("Mayor");
 } else {
-  console.log(":(")
+  console.log("Menor");
 }
-//Output: Yay
+//Output: Mayor
 ```
 
 Si tenemos más de dos condiciones podemos utilizar `else if`.
 
 ```js
-var miEdad = 20
-if (miEdad == 10) {
-  console.log("Yay")
+var miEdad = 20;
+if (miEdad === 10) {
+  console.log("Menor, 10 años.");
 } else if (miEdad > 19) {
-  console.log(":)")
+  console.log("Mayor de 19 años.");
 } else {
-  console.log(":(")
+  console.log("No es igual 10 años, menor de 19 años.");
 }
+//Output: Mayor de 19 años.
 ```
 
 ## Operadores lógicos
@@ -51,15 +54,15 @@ Con el operador `!` negaremos una condición.
 
 ```js
 if (!miEdad) {
-  console.log("La variable miEdad no está declarada.")
+  console.log('La variable "miEdad" es nula o indefinida.');
 }
 ```
 
 Con el operador `||` ejecutaremos el bloque de código si se cumple alguna de las condiciones dadas. `||` puede traducirse al español como `o`.
 
 ```js
-var miEdad = 20
-var miAuto = "rojo"
+var miEdad = 20;
+var miAuto = "rojo";
 if (miEdad == 20 || miAuto === "rojo") {
   //código a ejecutar si miEdad es igual a 20 y miAuto es idéntico a rojo, en este caso, este bloque de código sería ejecutado
 } else {
@@ -70,8 +73,8 @@ if (miEdad == 20 || miAuto === "rojo") {
 Con el operador `&&` ejecutaremos el bloque de código si se cumplen las dos condiciones. `&&` puede traducirse al español como `y`.
 
 ```js
-var miEdad = 20
-var miAuto = "azul"
+var miEdad = 20;
+var miAuto = "azul";
 if (miEdad == 20 && miAuto === "rojo") {
   //código a ejecutar si se cumplen las dos condiciones
 } else {
