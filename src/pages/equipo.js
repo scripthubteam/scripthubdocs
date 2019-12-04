@@ -66,14 +66,14 @@ const teams = [
     {
       title: <>GameBoy</>,
       imageUrl: "https://avatars2.githubusercontent.com/u/19270998",
-      info: "Miembro del departamento comunitario.",
+      info: "Miembro del departamento general.",
       gitUser: "https://github.com/estebanDT30",
       twUser: "https://twitter.com/GameBoy0665",
     },
     {
       title: <>Mon</>,
       imageUrl: 'https://avatars1.githubusercontent.com/u/54691517',
-      info: "Miembro del departamento de moderación.",
+      info: "Miembro del departamento comunitario.",
       gitUser: "https://github.com/wwmon",
       twUser: "https://twitter.com/sadwhynot",
     },
@@ -84,13 +84,7 @@ const teams = [
       gitUser: "https://github.com/gragasllenger",
       twUser: "https://twitter.com/gg_ilenger",
     },
-    {
-      title: <>iClu</>,
-      imageUrl: 'https://avatars1.githubusercontent.com/u/35960254',
-      info: "Miembro del departamento de moderación.",
-      gitUser: "https://github.com/BulzyKrown",
-      twUser: "https://twitter.com/ScriptHubTeam",
-    }
+    
   ];
 function Index({imageUrl, title, info, gitUser, twUser}) {
     const imgUrl = useBaseUrl(imageUrl);

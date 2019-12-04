@@ -32,13 +32,15 @@ function Layout(props) {
     keywords,
     permalink,
   } = props;
-  const metaTitle = title || `${defaultTitle} · ${tagline}`;
+  const metaTitle = title || `${defaultTitle} ⋙ ${tagline}`;
   const metaImage = image || defaultImage;
   const metaImageUrl = siteUrl + useBaseUrl(metaImage);
   const faviconUrl = useBaseUrl(favicon);
   return (
     <>
       <Head>
+        <meta name="theme-color" content="#F7671E"/>
+        <meta charset="utf-8"/>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         {metaTitle && <title>{metaTitle}</title>}
         {metaTitle && <meta property="og:title" content={metaTitle} />}
@@ -53,7 +55,7 @@ function Layout(props) {
         {metaImage && <meta property="og:image" content={metaImageUrl} />}
         {metaImage && <meta property="twitter:image" content={metaImageUrl} />}
         {metaImage && (
-          <meta name="twitter:image:alt" content={`Image for ${metaTitle}`} />
+          <meta name="twitter:image:alt" content={` Imagen ${metaTitle}`} />
         )}
         {permalink && <meta property="og:url" content={siteUrl + permalink} />}
         <meta name="twitter:card" content="summary" />

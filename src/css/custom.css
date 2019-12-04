@@ -22,6 +22,31 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
 }
 
+html[data-theme='dark'] {
+  --ifm-color-primary: #fff;
+  --ifm-color-emphasis-100: var(--ifm-color-gray-900);
+  --ifm-color-emphasis-200: var(--ifm-color-gray-800);
+  --ifm-color-emphasis-300: var(--ifm-color-gray-700);
+  --ifm-color-emphasis-400: var(--ifm-color-gray-600);
+  --ifm-color-emphasis-500: var(--ifm-color-gray-500);
+  --ifm-color-emphasis-600: var(--ifm-color-gray-400);
+  --ifm-color-emphasis-700: var(--ifm-color-gray-300);
+  --ifm-color-emphasis-800: var(--ifm-color-gray-200);
+  --ifm-color-emphasis-900: var(--ifm-color-gray-100);
+  --ifm-background-color: #121212;
+  --ifm-background-surface-color: #CB5519;
+  --ifm-hover-overlay: rgba(255, 255, 255, 0.05);
+  --ifm-color-content-secondary: rgba(255, 255, 255, 1);
+}
+.footer.footer--dark {
+  --ifm-footer-background-color: #001315;
+  --ifm-footer-color: var(--ifm-footer-link-color);
+  --ifm-footer-link-color: var(--ifm-color-secondary);
+  --ifm-footer-title-color: var(--ifm-color-white);
+  background-color: var(--ifm-footer-background-color);
+  color: var(--ifm-footer-color);
+}
+
 ::-moz-selection {
   background: #F7671E; /* Gecko Browsers */
 }
@@ -44,7 +69,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbar .navbar__logo {
-    height: 160%;
+    height: 100%;
     margin-right: 0.5rem;
 }
 

@@ -37,6 +37,8 @@ Este comando genera contenido estático en el directorio `build` y se puede ejec
 ### Deployment
 
 ```
+$ setx GIT_USER <username>
+$ setx USE_SSH false
 $ yarn deploy
 ```
 
