@@ -21,4 +21,3 @@ Node.js es un entorno JavaScript de lado de servidor que utiliza un modelo asín
 Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente.
 
 [Lee más acerca la funcionalidad de git](https://git-scm.com/book/es/v1/Empezando-Fundamentos-de-Git)
-

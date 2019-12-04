@@ -120,7 +120,7 @@ function BlogPostItem(props) {
               <Link
                 to={metadata.permalink}
                 aria-label={`Read more about ${title}`}>
-                <strong>Read More</strong>
+                <strong>Leer más</strong>
               </Link>
             </div>
           )}

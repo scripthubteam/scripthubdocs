@@ -16,7 +16,7 @@ module.exports = {
   themeConfig: {
     //navbar
     navbar: {
-      title: '',
+      title: 'BETA-2.0',
       logo: {
         alt: 'Script Hub',
         src: 'img/logonavbar.png',

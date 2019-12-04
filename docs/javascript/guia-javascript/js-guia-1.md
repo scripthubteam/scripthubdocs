@@ -14,4 +14,3 @@ ________
 ## Introducción
 JavaScript no es un lenguaje propiamente dicho como **C++ o C**, sino una lengua script u orientada a documentos. Además, es una de las múltiples formas de extender las capacidades de HTML.
 NodeJS revolucionó el mundo de JavaScript trayendo la posibilidad de desarrollar aplicaciones fuera de un entorno de navegador.
-

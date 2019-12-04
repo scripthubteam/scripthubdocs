@@ -16,7 +16,7 @@ function BlogPostPaginator(props) {
       <div className="pagination-nav__item">
         {prevItem && (
           <Link className="pagination-nav__link" to={prevItem.permalink}>
-            <h5 className="pagination-nav__link--sublabel">Previous Post</h5>
+            <h5 className="pagination-nav__link--sublabel">Publicación anterior</h5>
             <h4 className="pagination-nav__link--label">
               &laquo; {prevItem.title}
             </h4>
@@ -26,7 +26,7 @@ function BlogPostPaginator(props) {
       <div className="pagination-nav__item pagination-nav__item--next">
         {nextItem && (
           <Link className="pagination-nav__link" to={nextItem.permalink}>
-            <h5 className="pagination-nav__link--sublabel">Next Post</h5>
+            <h5 className="pagination-nav__link--sublabel">Siguiente publicación</h5>
             <h4 className="pagination-nav__link--label">
               {nextItem.title} &raquo;
             </h4>
