@@ -1,6 +1,6 @@
 ---
 id: jda-2
-title: Índice
+title: Primeros pasos
 sidebar_label: Primeros pasos
 ---
 
