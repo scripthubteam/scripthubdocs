@@ -1,6 +1,6 @@
 ---
 id: jda-4
-title: Índice
+title: Creación de comandos
 sidebar_label: Creación de comandos
 ---
 
