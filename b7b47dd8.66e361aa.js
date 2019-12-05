@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[53],{187:function(o){o.exports=JSON.parse('{"allTagsPath":"/scripthubdocs/blog/tags","slug":"lawcodev","name":"lawcodev","count":1,"permalink":"/scripthubdocs/blog/tags/lawcodev"}')}}]);
