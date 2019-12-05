@@ -27,13 +27,6 @@ module.exports = {
       },
       {
         "type": "category",
-        "label": "Eris",
-        "items": [
-          "javascript/eris/eris-1", "javascript/eris/eris-2", "javascript/eris/eris-3"
-        ]
-      },
-      {
-        "type": "category",
         "label": "Discord.js",
         "items": [
           "javascript/djs/djs-1", "javascript/djs/djs-2", "javascript/djs/djs-3"

@@ -9,7 +9,7 @@ module.exports = {
   title: 'Inicio',
   tagline: 'Script Hub es una comunidad amplia de programadores y aficionados de todo el mundo que comparten sus propias experiencias.',
   url: 'https://scripthubteam.github.io',
-  baseUrl: '/',
+  baseUrl: '/scripthubdocs',
   favicon: 'img/favicon/favico.ico',
   organizationName: 'scripthubteam', // Usually your GitHub org/user name.
   projectName: 'scripthubdocs', // Usually your repo name.
