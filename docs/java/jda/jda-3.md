@@ -1,6 +1,6 @@
 ---
 id: jda-3
-title: Índice
+title: Utilizando eventos
 sidebar_label: Utilizando eventos
 ---
 
