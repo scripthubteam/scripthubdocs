@@ -7,7 +7,7 @@ sidebar_label: Utilizando eventos
 1. [Introducción](#introducción) - Breve explicación sobre qué es un evento.
 2. [Utilización](#utilización) - Cómo se utiliza un evento.
 3. [Lista de eventos](#lista-de-eventos) - Una lista completa con cada uno de los eventos de JDA.
-    - [Tipos de eventos](###tipos-de-eventos) - Todas los diferentes categorías de los eventos de JDA.
+    - [Tipos de eventos](#tipos-de-eventos) - Todas los diferentes categorías de los eventos de JDA.
 4. [Conclusión](#conclusión) - Corto resumen de todo lo explicado en esta guía
 
 ## Introducción
