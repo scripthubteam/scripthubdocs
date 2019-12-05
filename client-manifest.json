@@ -312,14 +312,14 @@
         {
           "file": "styles.72dd8fd3.css",
           "hash": "f457c00f7250670c9bd8",
-          "publicPath": "/styles.72dd8fd3.css"
+          "publicPath": "/scripthubdocs/styles.72dd8fd3.css"
         }
       ],
       "js": [
         {
           "file": "styles.813ebf72.js",
           "hash": "f457c00f7250670c9bd8",
-          "publicPath": "/styles.813ebf72.js"
+          "publicPath": "/scripthubdocs/styles.813ebf72.js"
         }
       ]
     },
@@ -328,7 +328,7 @@
         {
           "file": "1.6884c10b.js",
           "hash": "a997238907548698a4f6",
-          "publicPath": "/1.6884c10b.js"
+          "publicPath": "/scripthubdocs/1.6884c10b.js"
         }
       ]
     },
@@ -337,7 +337,7 @@
         {
           "file": "01a85c17.5f723cb0.js",
           "hash": "eef079d57d21018197f6",
-          "publicPath": "/01a85c17.5f723cb0.js"
+          "publicPath": "/scripthubdocs/01a85c17.5f723cb0.js"
         }
       ]
     },
@@ -346,7 +346,7 @@
         {
           "file": "0545bdb2.e8f7ac68.js",
           "hash": "99b7cd6118b16a6d04a8",
-          "publicPath": "/0545bdb2.e8f7ac68.js"
+          "publicPath": "/scripthubdocs/0545bdb2.e8f7ac68.js"
         }
       ]
     },
@@ -355,7 +355,7 @@
         {
           "file": "063490b5.174ebea5.js",
           "hash": "02bbd1933c32de7f37eb",
-          "publicPath": "/063490b5.174ebea5.js"
+          "publicPath": "/scripthubdocs/063490b5.174ebea5.js"
         }
       ]
     },
@@ -364,7 +364,7 @@
         {
           "file": "0ea1ca15.584f0f10.js",
           "hash": "6c23d85c317a57e69d35",
-          "publicPath": "/0ea1ca15.584f0f10.js"
+          "publicPath": "/scripthubdocs/0ea1ca15.584f0f10.js"
         }
       ]
     },
@@ -373,7 +373,7 @@
         {
           "file": "0fef5bdb.d878c1a2.js",
           "hash": "06d2a9b6be232a48de22",
-          "publicPath": "/0fef5bdb.d878c1a2.js"
+          "publicPath": "/scripthubdocs/0fef5bdb.d878c1a2.js"
         }
       ]
     },
@@ -382,7 +382,7 @@
         {
           "file": "0ff0c2c1.6e775387.js",
           "hash": "9370e5506e9b52ace57c",
-          "publicPath": "/0ff0c2c1.6e775387.js"
+          "publicPath": "/scripthubdocs/0ff0c2c1.6e775387.js"
         }
       ]
     },
@@ -391,7 +391,7 @@
         {
           "file": "10499e39.884af08e.js",
           "hash": "9277dcdd0e003a70a54b",
-          "publicPath": "/10499e39.884af08e.js"
+          "publicPath": "/scripthubdocs/10499e39.884af08e.js"
         }
       ]
     },
@@ -400,7 +400,7 @@
         {
           "file": "13c1feca.fe7a232b.js",
           "hash": "f4e2ec2f02925248a723",
-          "publicPath": "/13c1feca.fe7a232b.js"
+          "publicPath": "/scripthubdocs/13c1feca.fe7a232b.js"
         }
       ]
     },
@@ -409,7 +409,7 @@
         {
           "file": "17896441.f7593578.js",
           "hash": "5d65be0ed18fa086fa79",
-          "publicPath": "/17896441.f7593578.js"
+          "publicPath": "/scripthubdocs/17896441.f7593578.js"
         }
       ]
     },
@@ -418,7 +418,7 @@
         {
           "file": "1be78505.0b314637.js",
           "hash": "efab5f00df75a5a4374d",
-          "publicPath": "/1be78505.0b314637.js"
+          "publicPath": "/scripthubdocs/1be78505.0b314637.js"
         }
       ]
     },
@@ -427,7 +427,7 @@
         {
           "file": "1d0d1149.2241cde3.js",
           "hash": "2b1b3541ed774d26b7fb",
-          "publicPath": "/1d0d1149.2241cde3.js"
+          "publicPath": "/scripthubdocs/1d0d1149.2241cde3.js"
         }
       ]
     },
@@ -436,7 +436,7 @@
         {
           "file": "28958f18.271b0338.js",
           "hash": "430f312c2d736757d53e",
-          "publicPath": "/28958f18.271b0338.js"
+          "publicPath": "/scripthubdocs/28958f18.271b0338.js"
         }
       ]
     },
@@ -445,7 +445,7 @@
         {
           "file": "2bdf5de4.6790ecb0.js",
           "hash": "0134f304ff68c6f440fe",
-          "publicPath": "/2bdf5de4.6790ecb0.js"
+          "publicPath": "/scripthubdocs/2bdf5de4.6790ecb0.js"
         }
       ]
     },
@@ -454,7 +454,7 @@
         {
           "file": "2e1a4084.87b6b762.js",
           "hash": "74cacd7c7e205bf97de3",
-          "publicPath": "/2e1a4084.87b6b762.js"
+          "publicPath": "/scripthubdocs/2e1a4084.87b6b762.js"
         }
       ]
     },
@@ -463,7 +463,7 @@
         {
           "file": "339aa20c.6b79fd9c.js",
           "hash": "a5a6513cfedb2f27e0ef",
-          "publicPath": "/339aa20c.6b79fd9c.js"
+          "publicPath": "/scripthubdocs/339aa20c.6b79fd9c.js"
         }
       ]
     },
@@ -472,7 +472,7 @@
         {
           "file": "33a216c1.417f2ddd.js",
           "hash": "d14295e0ad2e9c2e1803",
-          "publicPath": "/33a216c1.417f2ddd.js"
+          "publicPath": "/scripthubdocs/33a216c1.417f2ddd.js"
         }
       ]
     },
@@ -481,7 +481,7 @@
         {
           "file": "3b7d01a2.f577a174.js",
           "hash": "61c3289825632b20f335",
-          "publicPath": "/3b7d01a2.f577a174.js"
+          "publicPath": "/scripthubdocs/3b7d01a2.f577a174.js"
         }
       ]
     },
@@ -490,7 +490,7 @@
         {
           "file": "402ae71c.17989e68.js",
           "hash": "4cacb013bee014d842b7",
-          "publicPath": "/402ae71c.17989e68.js"
+          "publicPath": "/scripthubdocs/402ae71c.17989e68.js"
         }
       ]
     },
@@ -499,7 +499,7 @@
         {
           "file": "431644be.dd2eaf17.js",
           "hash": "fd1210f5a8817c7070e4",
-          "publicPath": "/431644be.dd2eaf17.js"
+          "publicPath": "/scripthubdocs/431644be.dd2eaf17.js"
         }
       ]
     },
@@ -508,7 +508,7 @@
         {
           "file": "4afb1fbb.3ae98c62.js",
           "hash": "dba6f000b3576b747da8",
-          "publicPath": "/4afb1fbb.3ae98c62.js"
+          "publicPath": "/scripthubdocs/4afb1fbb.3ae98c62.js"
         }
       ]
     },
@@ -517,7 +517,7 @@
         {
           "file": "4bd5e7c8.2909a330.js",
           "hash": "9558cb147eb527df794f",
-          "publicPath": "/4bd5e7c8.2909a330.js"
+          "publicPath": "/scripthubdocs/4bd5e7c8.2909a330.js"
         }
       ]
     },
@@ -526,7 +526,7 @@
         {
           "file": "52f73da5.f75197f9.js",
           "hash": "6f52353951688be27dd1",
-          "publicPath": "/52f73da5.f75197f9.js"
+          "publicPath": "/scripthubdocs/52f73da5.f75197f9.js"
         }
       ]
     },
@@ -535,7 +535,7 @@
         {
           "file": "54caeb7c.63fbaec4.js",
           "hash": "ac9472239e25e7fc26ff",
-          "publicPath": "/54caeb7c.63fbaec4.js"
+          "publicPath": "/scripthubdocs/54caeb7c.63fbaec4.js"
         }
       ]
     },
@@ -544,7 +544,7 @@
         {
           "file": "55f21a64.a9237c7e.js",
           "hash": "b7b47889eb9be48cdcd6",
-          "publicPath": "/55f21a64.a9237c7e.js"
+          "publicPath": "/scripthubdocs/55f21a64.a9237c7e.js"
         }
       ]
     },
@@ -553,7 +553,7 @@
         {
           "file": "5a60ce4d.055df69c.js",
           "hash": "ef3169927d43ab797a80",
-          "publicPath": "/5a60ce4d.055df69c.js"
+          "publicPath": "/scripthubdocs/5a60ce4d.055df69c.js"
         }
       ]
     },
@@ -562,7 +562,7 @@
         {
           "file": "5cda2d0f.dec76939.js",
           "hash": "57e242f2ad6814aa36f5",
-          "publicPath": "/5cda2d0f.dec76939.js"
+          "publicPath": "/scripthubdocs/5cda2d0f.dec76939.js"
         }
       ]
     },
@@ -571,7 +571,7 @@
         {
           "file": "5db487a8.3dac420e.js",
           "hash": "775db1a8b0a4ea1ad937",
-          "publicPath": "/5db487a8.3dac420e.js"
+          "publicPath": "/scripthubdocs/5db487a8.3dac420e.js"
         }
       ]
     },
@@ -580,7 +580,7 @@
         {
           "file": "5f33c74b.ed11bd07.js",
           "hash": "ed5ea89f04ceec0b3926",
-          "publicPath": "/5f33c74b.ed11bd07.js"
+          "publicPath": "/scripthubdocs/5f33c74b.ed11bd07.js"
         }
       ]
     },
@@ -589,7 +589,7 @@
         {
           "file": "5f52614a.71a5ba39.js",
           "hash": "e93abef5d546cb89c884",
-          "publicPath": "/5f52614a.71a5ba39.js"
+          "publicPath": "/scripthubdocs/5f52614a.71a5ba39.js"
         }
       ]
     },
@@ -598,7 +598,7 @@
         {
           "file": "6020d8ba.688a7a83.js",
           "hash": "2f7b6a18f94911515819",
-          "publicPath": "/6020d8ba.688a7a83.js"
+          "publicPath": "/scripthubdocs/6020d8ba.688a7a83.js"
         }
       ]
     },
@@ -607,7 +607,7 @@
         {
           "file": "647fe216.82e55946.js",
           "hash": "11362d2151deba5be81e",
-          "publicPath": "/647fe216.82e55946.js"
+          "publicPath": "/scripthubdocs/647fe216.82e55946.js"
         }
       ]
     },
@@ -616,7 +616,7 @@
         {
           "file": "6875c492.59015219.js",
           "hash": "04a890edc3825d3ac4fd",
-          "publicPath": "/6875c492.59015219.js"
+          "publicPath": "/scripthubdocs/6875c492.59015219.js"
         }
       ]
     },
@@ -625,7 +625,7 @@
         {
           "file": "6e9dbf20.96b2c945.js",
           "hash": "4d24324d167f2f38cd9c",
-          "publicPath": "/6e9dbf20.96b2c945.js"
+          "publicPath": "/scripthubdocs/6e9dbf20.96b2c945.js"
         }
       ]
     },
@@ -634,7 +634,7 @@
         {
           "file": "77992c76.0c5a9f3e.js",
           "hash": "2af97a19c98a96a86e5a",
-          "publicPath": "/77992c76.0c5a9f3e.js"
+          "publicPath": "/scripthubdocs/77992c76.0c5a9f3e.js"
         }
       ]
     },
@@ -643,7 +643,7 @@
         {
           "file": "7d2ffd8d.34b28938.js",
           "hash": "8eb8562a7de8cd58400b",
-          "publicPath": "/7d2ffd8d.34b28938.js"
+          "publicPath": "/scripthubdocs/7d2ffd8d.34b28938.js"
         }
       ]
     },
@@ -652,7 +652,7 @@
         {
           "file": "7da42ccc.ad2916ed.js",
           "hash": "035d9d093df911036e63",
-          "publicPath": "/7da42ccc.ad2916ed.js"
+          "publicPath": "/scripthubdocs/7da42ccc.ad2916ed.js"
         }
       ]
     },
@@ -661,7 +661,7 @@
         {
           "file": "7f4e7a54.cc0afb36.js",
           "hash": "aa866e211247a58d66f3",
-          "publicPath": "/7f4e7a54.cc0afb36.js"
+          "publicPath": "/scripthubdocs/7f4e7a54.cc0afb36.js"
         }
       ]
     },
@@ -670,7 +670,7 @@
         {
           "file": "969470b4.17f8a511.js",
           "hash": "f3a6f34189b1742b5708",
-          "publicPath": "/969470b4.17f8a511.js"
+          "publicPath": "/scripthubdocs/969470b4.17f8a511.js"
         }
       ]
     },
@@ -679,7 +679,7 @@
         {
           "file": "9710ba2b.59c53eb7.js",
           "hash": "05c02d2f4820403a571a",
-          "publicPath": "/9710ba2b.59c53eb7.js"
+          "publicPath": "/scripthubdocs/9710ba2b.59c53eb7.js"
         }
       ]
     },
@@ -688,7 +688,7 @@
         {
           "file": "97b67d4a.c2cae590.js",
           "hash": "ee5ac987095dbde25cd4",
-          "publicPath": "/97b67d4a.c2cae590.js"
+          "publicPath": "/scripthubdocs/97b67d4a.c2cae590.js"
         }
       ]
     },
@@ -697,7 +697,7 @@
         {
           "file": "9879a6fd.b80d1cad.js",
           "hash": "38395b9ff8eac68038aa",
-          "publicPath": "/9879a6fd.b80d1cad.js"
+          "publicPath": "/scripthubdocs/9879a6fd.b80d1cad.js"
         }
       ]
     },
@@ -706,7 +706,7 @@
         {
           "file": "9b5048b8.cb5fbe82.js",
           "hash": "f5970cdc5004abe70ace",
-          "publicPath": "/9b5048b8.cb5fbe82.js"
+          "publicPath": "/scripthubdocs/9b5048b8.cb5fbe82.js"
         }
       ]
     },
@@ -715,7 +715,7 @@
         {
           "file": "a0038662.63fae645.js",
           "hash": "95c2f51eb38e1cc06b6e",
-          "publicPath": "/a0038662.63fae645.js"
+          "publicPath": "/scripthubdocs/a0038662.63fae645.js"
         }
       ]
     },
@@ -724,7 +724,7 @@
         {
           "file": "a1ff52ca.4e539273.js",
           "hash": "757a2ffd621e6639a74d",
-          "publicPath": "/a1ff52ca.4e539273.js"
+          "publicPath": "/scripthubdocs/a1ff52ca.4e539273.js"
         }
       ]
     },
@@ -733,7 +733,7 @@
         {
           "file": "a2459985.61ee0e73.js",
           "hash": "c679246d54f8f26cc0c5",
-          "publicPath": "/a2459985.61ee0e73.js"
+          "publicPath": "/scripthubdocs/a2459985.61ee0e73.js"
         }
       ]
     },
@@ -742,7 +742,7 @@
         {
           "file": "a34be867.7cddefbc.js",
           "hash": "777261fccf86e4816ce5",
-          "publicPath": "/a34be867.7cddefbc.js"
+          "publicPath": "/scripthubdocs/a34be867.7cddefbc.js"
         }
       ]
     },
@@ -751,7 +751,7 @@
         {
           "file": "a6aa9e1f.ad2c4fbd.js",
           "hash": "58d08e772108d03416b1",
-          "publicPath": "/a6aa9e1f.ad2c4fbd.js"
+          "publicPath": "/scripthubdocs/a6aa9e1f.ad2c4fbd.js"
         }
       ]
     },
@@ -760,7 +760,7 @@
         {
           "file": "a8ab9621.d516e908.js",
           "hash": "902082fe1dd3a82cbcb0",
-          "publicPath": "/a8ab9621.d516e908.js"
+          "publicPath": "/scripthubdocs/a8ab9621.d516e908.js"
         }
       ]
     },
@@ -769,7 +769,7 @@
         {
           "file": "aa38aa2c.b7f6ad2b.js",
           "hash": "64986a60a990d88b9e17",
-          "publicPath": "/aa38aa2c.b7f6ad2b.js"
+          "publicPath": "/scripthubdocs/aa38aa2c.b7f6ad2b.js"
         }
       ]
     },
@@ -778,7 +778,7 @@
         {
           "file": "b47f05b7.9c5cfa52.js",
           "hash": "3b24a8c35fe719a7e437",
-          "publicPath": "/b47f05b7.9c5cfa52.js"
+          "publicPath": "/scripthubdocs/b47f05b7.9c5cfa52.js"
         }
       ]
     },
@@ -787,7 +787,7 @@
         {
           "file": "b55896ca.92fc2189.js",
           "hash": "1cee36458b98a65e6a7d",
-          "publicPath": "/b55896ca.92fc2189.js"
+          "publicPath": "/scripthubdocs/b55896ca.92fc2189.js"
         }
       ]
     },
@@ -796,7 +796,7 @@
         {
           "file": "b7b47dd8.66e361aa.js",
           "hash": "1094449d13f292e8bc1d",
-          "publicPath": "/b7b47dd8.66e361aa.js"
+          "publicPath": "/scripthubdocs/b7b47dd8.66e361aa.js"
         }
       ]
     },
@@ -805,7 +805,7 @@
         {
           "file": "b9e0d525.2a50cae6.js",
           "hash": "c5e6f4dba450d03e1b7e",
-          "publicPath": "/b9e0d525.2a50cae6.js"
+          "publicPath": "/scripthubdocs/b9e0d525.2a50cae6.js"
         }
       ]
     },
@@ -814,7 +814,7 @@
         {
           "file": "bc683610.3ba4c70a.js",
           "hash": "4b4b00c304b233397fdb",
-          "publicPath": "/bc683610.3ba4c70a.js"
+          "publicPath": "/scripthubdocs/bc683610.3ba4c70a.js"
         }
       ]
     },
@@ -823,7 +823,7 @@
         {
           "file": "be07bb8f.494d5d52.js",
           "hash": "ea0eb99e42495ab84b71",
-          "publicPath": "/be07bb8f.494d5d52.js"
+          "publicPath": "/scripthubdocs/be07bb8f.494d5d52.js"
         }
       ]
     },
@@ -832,7 +832,7 @@
         {
           "file": "bf342d2d.8c9a069d.js",
           "hash": "31af820aa0ffa5608959",
-          "publicPath": "/bf342d2d.8c9a069d.js"
+          "publicPath": "/scripthubdocs/bf342d2d.8c9a069d.js"
         }
       ]
     },
@@ -841,7 +841,7 @@
         {
           "file": "bf6e4297.ea922835.js",
           "hash": "9f2bae7ad650011609f6",
-          "publicPath": "/bf6e4297.ea922835.js"
+          "publicPath": "/scripthubdocs/bf6e4297.ea922835.js"
         }
       ]
     },
@@ -850,7 +850,7 @@
         {
           "file": "c345b348.a4a5c214.js",
           "hash": "62e6c9fdd7a72cb929db",
-          "publicPath": "/c345b348.a4a5c214.js"
+          "publicPath": "/scripthubdocs/c345b348.a4a5c214.js"
         }
       ]
     },
@@ -859,7 +859,7 @@
         {
           "file": "c4dd456f.9fa5eae8.js",
           "hash": "9af7effafb55fd509f83",
-          "publicPath": "/c4dd456f.9fa5eae8.js"
+          "publicPath": "/scripthubdocs/c4dd456f.9fa5eae8.js"
         }
       ]
     },
@@ -868,7 +868,7 @@
         {
           "file": "c7ea6135.d9a2149b.js",
           "hash": "f8b895f99aca93b98c71",
-          "publicPath": "/c7ea6135.d9a2149b.js"
+          "publicPath": "/scripthubdocs/c7ea6135.d9a2149b.js"
         }
       ]
     },
@@ -877,7 +877,7 @@
         {
           "file": "c911de1d.9c537d05.js",
           "hash": "71744bb2807f6262e77f",
-          "publicPath": "/c911de1d.9c537d05.js"
+          "publicPath": "/scripthubdocs/c911de1d.9c537d05.js"
         }
       ]
     },
@@ -886,7 +886,7 @@
         {
           "file": "ca72e38d.5aba807f.js",
           "hash": "6d6ce3869871e852658c",
-          "publicPath": "/ca72e38d.5aba807f.js"
+          "publicPath": "/scripthubdocs/ca72e38d.5aba807f.js"
         }
       ]
     },
@@ -895,7 +895,7 @@
         {
           "file": "cae92850.30a187d5.js",
           "hash": "800199ba2b5caa2e0b4c",
-          "publicPath": "/cae92850.30a187d5.js"
+          "publicPath": "/scripthubdocs/cae92850.30a187d5.js"
         }
       ]
     },
@@ -904,7 +904,7 @@
         {
           "file": "cb1a89f9.c4d2ecd9.js",
           "hash": "d95c40c3a00bee4dfe41",
-          "publicPath": "/cb1a89f9.c4d2ecd9.js"
+          "publicPath": "/scripthubdocs/cb1a89f9.c4d2ecd9.js"
         }
       ]
     },
@@ -913,7 +913,7 @@
         {
           "file": "ccc49370.05c60c1a.js",
           "hash": "65073d773f6a5c84d5c0",
-          "publicPath": "/ccc49370.05c60c1a.js"
+          "publicPath": "/scripthubdocs/ccc49370.05c60c1a.js"
         }
       ]
     },
@@ -922,7 +922,7 @@
         {
           "file": "d11929f9.6fc76663.js",
           "hash": "9822d719dabda0e33adf",
-          "publicPath": "/d11929f9.6fc76663.js"
+          "publicPath": "/scripthubdocs/d11929f9.6fc76663.js"
         }
       ]
     },
@@ -931,7 +931,7 @@
         {
           "file": "d1bf3eca.d415a657.js",
           "hash": "ea7883b5d03c4ec602bf",
-          "publicPath": "/d1bf3eca.d415a657.js"
+          "publicPath": "/scripthubdocs/d1bf3eca.d415a657.js"
         }
       ]
     },
@@ -940,7 +940,7 @@
         {
           "file": "d709a2a9.3eec8c9f.js",
           "hash": "edbb7cbea6b21a8b16fa",
-          "publicPath": "/d709a2a9.3eec8c9f.js"
+          "publicPath": "/scripthubdocs/d709a2a9.3eec8c9f.js"
         }
       ]
     },
@@ -949,7 +949,7 @@
         {
           "file": "d8713a0b.6a0b7267.js",
           "hash": "2a9d4e7075faee96e61f",
-          "publicPath": "/d8713a0b.6a0b7267.js"
+          "publicPath": "/scripthubdocs/d8713a0b.6a0b7267.js"
         }
       ]
     },
@@ -958,7 +958,7 @@
         {
           "file": "dcb09b9c.5ff01a0f.js",
           "hash": "99a9f17e5900fcd0e236",
-          "publicPath": "/dcb09b9c.5ff01a0f.js"
+          "publicPath": "/scripthubdocs/dcb09b9c.5ff01a0f.js"
         }
       ]
     },
@@ -967,7 +967,7 @@
         {
           "file": "dd893558.0d04a50a.js",
           "hash": "a5b54726e29225e8f2de",
-          "publicPath": "/dd893558.0d04a50a.js"
+          "publicPath": "/scripthubdocs/dd893558.0d04a50a.js"
         }
       ]
     },
@@ -976,7 +976,7 @@
         {
           "file": "e0ec6bcc.33d7dc1f.js",
           "hash": "f0c69e651d2ed4f454af",
-          "publicPath": "/e0ec6bcc.33d7dc1f.js"
+          "publicPath": "/scripthubdocs/e0ec6bcc.33d7dc1f.js"
         }
       ]
     },
@@ -985,7 +985,7 @@
         {
           "file": "e15fd70a.9b6881a2.js",
           "hash": "9502abb31bcaa2928bd5",
-          "publicPath": "/e15fd70a.9b6881a2.js"
+          "publicPath": "/scripthubdocs/e15fd70a.9b6881a2.js"
         }
       ]
     },
@@ -994,7 +994,7 @@
         {
           "file": "e31d314c.c1803148.js",
           "hash": "8ee980e05d092f234dc2",
-          "publicPath": "/e31d314c.c1803148.js"
+          "publicPath": "/scripthubdocs/e31d314c.c1803148.js"
         }
       ]
     },
@@ -1003,7 +1003,7 @@
         {
           "file": "e8faa54b.9687ab0f.js",
           "hash": "10a8cea8f3d4bd6474f0",
-          "publicPath": "/e8faa54b.9687ab0f.js"
+          "publicPath": "/scripthubdocs/e8faa54b.9687ab0f.js"
         }
       ]
     },
@@ -1012,7 +1012,7 @@
         {
           "file": "ece76bd1.64204c0e.js",
           "hash": "254065e77639316e78d6",
-          "publicPath": "/ece76bd1.64204c0e.js"
+          "publicPath": "/scripthubdocs/ece76bd1.64204c0e.js"
         }
       ]
     },
@@ -1021,7 +1021,7 @@
         {
           "file": "ee995ea0.fa9c9842.js",
           "hash": "89d2043e95c1fc737f52",
-          "publicPath": "/ee995ea0.fa9c9842.js"
+          "publicPath": "/scripthubdocs/ee995ea0.fa9c9842.js"
         }
       ]
     },
@@ -1030,7 +1030,7 @@
         {
           "file": "f040d522.9c5ae18a.js",
           "hash": "c09854bf309124c6f3c8",
-          "publicPath": "/f040d522.9c5ae18a.js"
+          "publicPath": "/scripthubdocs/f040d522.9c5ae18a.js"
         }
       ]
     },
@@ -1039,7 +1039,7 @@
         {
           "file": "f43486ca.b4b499f2.js",
           "hash": "32e85d8d1ed73afd69fd",
-          "publicPath": "/f43486ca.b4b499f2.js"
+          "publicPath": "/scripthubdocs/f43486ca.b4b499f2.js"
         }
       ]
     },
@@ -1048,7 +1048,7 @@
         {
           "file": "f8a9ded3.ff211255.js",
           "hash": "c6eccd7d57f7a6cc5471",
-          "publicPath": "/f8a9ded3.ff211255.js"
+          "publicPath": "/scripthubdocs/f8a9ded3.ff211255.js"
         }
       ]
     },
@@ -1057,7 +1057,7 @@
         {
           "file": "fd15ca75.20f51ef6.js",
           "hash": "66b05ddded970364f14b",
-          "publicPath": "/fd15ca75.20f51ef6.js"
+          "publicPath": "/scripthubdocs/fd15ca75.20f51ef6.js"
         }
       ]
     },
@@ -1066,25 +1066,25 @@
         {
           "file": "fd79d6f6.c0820312.js",
           "hash": "9a548ad767741a41f304",
-          "publicPath": "/fd79d6f6.c0820312.js"
+          "publicPath": "/scripthubdocs/fd79d6f6.c0820312.js"
         }
       ]
     },
     "84": {
       "js": [
         {
-          "file": "main.7dcd5eae.js",
-          "hash": "eff5ad21ba0877581223",
-          "publicPath": "/main.7dcd5eae.js"
+          "file": "main.9df99732.js",
+          "hash": "880cd3da77722f91ec90",
+          "publicPath": "/scripthubdocs/main.9df99732.js"
         }
       ]
     },
     "85": {
       "js": [
         {
-          "file": "runtime~main.f049467b.js",
-          "hash": "25b4f24988cfc62630ee",
-          "publicPath": "/runtime~main.f049467b.js"
+          "file": "runtime~main.04a81f25.js",
+          "hash": "7615a4ab2445e2d5eca4",
+          "publicPath": "/scripthubdocs/runtime~main.04a81f25.js"
         }
       ]
     },
@@ -1093,7 +1093,7 @@
         {
           "file": "86.8c45e925.js",
           "hash": "a63683e32fef26b9ecba",
-          "publicPath": "/86.8c45e925.js"
+          "publicPath": "/scripthubdocs/86.8c45e925.js"
         }
       ]
     },
@@ -1102,7 +1102,7 @@
         {
           "file": "87.5f7ad003.js",
           "hash": "1caa8b48c97abda125dd",
-          "publicPath": "/87.5f7ad003.js"
+          "publicPath": "/scripthubdocs/87.5f7ad003.js"
         }
       ]
     }
