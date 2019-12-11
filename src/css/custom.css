@@ -80,6 +80,6 @@ body::-webkit-scrollbar-thumb {
 .hero.hero--primary {
     --ifm-hero-background-color: var(--ifm-color-primary);
     --ifm-hero-text-color: var(--ifm-font-base-color-inverse);
-    background-image: url(https://imagenes.universia.net/gc/net/images/educacion/c/cu/cua/cuales-lenguajes-programacion-demandados-empresas.jpg);
+    background-image: url(https://images.wallpaperscraft.com/image/code_binary_code_glow_136085_2560x1440.jpg);
     color: var(--ifm-hero-text-color);
 }
