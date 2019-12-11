@@ -43,6 +43,13 @@ const features = [
   },
 ];
 
+const listMarcas = [
+  {
+    imageUrl: "img/logo-alebrijessss.png",
+    title: "https://www.facebook.com/alebrijestec"
+  }
+]
+
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
@@ -54,6 +61,21 @@ function Feature({imageUrl, title, description}) {
       )}
       <h3>{title}</h3>
       <p>{description}</p><br/>
+    </div>
+  );
+}
+
+function Marcas({imageUrl, title}) {
+  const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <div className={classnames('col col--4', styles.marca)}>
+      {imgUrl && (
+        <div className="text--center">
+          <a href={title}>
+            <img className={styles.marcaImage} src={imgUrl} alt={title}/>
+          </a>
+        </div>
+      )}
     </div>
   );
 }
@@ -88,6 +110,18 @@ function Home() {
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+        <h1 align="center">Sponsors</h1>
+        {listMarcas && listMarcas.length && (
+          <section className={styles.marca}>
+            <div className="container">
+              <div className="row">
+                {listMarcas.map((props, idx) => (
+                  <Marcas key={idx} {...props} />
                 ))}
               </div>
             </div>
