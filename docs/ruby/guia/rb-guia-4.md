@@ -1,5 +1,5 @@
 ---
-id: programacion orientada a objetos
+id: rb-programacion orientada a objetos
 title: Programación orientada a objetos (POO)
 sidebar_label: Programación orientada a objetos
 ---

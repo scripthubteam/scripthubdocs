@@ -1,5 +1,5 @@
 ---
-id: introduccion
+id: rb-introduccion
 title: Ruby - Título creativo
 sidebar_label: Introducción
 ---

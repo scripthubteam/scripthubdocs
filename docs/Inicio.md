@@ -1,7 +1,7 @@
 ---
-id: home
-title: Bienvenido a nuestra documentación
-sidebar_label: Sobre nosotros 
+id: Inicio
+title: Bienvenido a la documentación de Script Hub
+sidebar_label: Inicio
 ---
 
 Nuestras guías te capacitan a estar seguro de lo que adquieras aquí, ya sea para un proyecto pequeño u otro motivo en común.

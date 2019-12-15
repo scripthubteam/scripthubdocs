@@ -1,5 +1,5 @@
 ---
-id: nuestro primer programa
+id: rb-nuestro primer programa
 title: Nuestro primer programa
 sidebar_label: Nuestro primer programa  
 ---

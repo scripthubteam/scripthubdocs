@@ -1,5 +1,5 @@
 ---
-id: adentrandonos mas
+id: rb-adentrandonos mas
 title: Adentrándonos más en el lenguaje
 sidebar_label: Algo más complejo
 ---

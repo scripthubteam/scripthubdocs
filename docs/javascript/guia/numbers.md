@@ -1,10 +1,10 @@
 ---
-id: js-guia-3
+id: js-numbers
 title: JavaScript - Números. (Ecuaciones y métodos)
 sidebar_label: JavaScript - Números.
 ---
 
-# Números - <Numbers>
+# Números - *Numbers*
 
 **Nota importante:** Antes de empezar, es importante saber lo siguiente:
 * En programación se cuenta desde el número 0, es decir; 0, 1, 2, 3, 4, 5.

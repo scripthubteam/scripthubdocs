@@ -9,7 +9,7 @@ module.exports = {
   title: 'Inicio',
   tagline: 'Script Hub es una comunidad amplia de programadores y aficionados de todo el mundo que comparten sus propias experiencias.',
   url: 'https://scripthubteam.github.io',
-  baseUrl: '/scripthubdocs/',
+  baseUrl: '/',
   favicon: 'img/favicon/favico.ico',
   organizationName: 'scripthubteam', // Usually your GitHub org/user name.
   projectName: 'scripthubdocs', // Usually your repo name.
@@ -23,7 +23,7 @@ module.exports = {
       },
       //links
       links: [
-        {to: 'docs/home', label: 'Documentación', position: 'left'},
+        {to: 'docs/Inicio', label: 'Documentación', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {to: 'equipo', label: 'Equipo', position: 'left'},
         {
@@ -51,7 +51,7 @@ module.exports = {
           items: [
             {
               label: 'Documentación',
-              to: 'docs/home',
+              to: 'docs/Inicio',
             },
           ],
         },
@@ -60,7 +60,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/se6Ncjr',
+              href: 'http://discord.scripthubteam.com',
             },
           ],
         },

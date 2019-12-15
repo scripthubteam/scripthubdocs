@@ -1,7 +1,7 @@
 ---
-id: indice
-title: Índice
-sidebar_label: Índice 
+id: Autores
+title: Autores
+sidebar_label: Autores 
 ---
 
 * [Listado y estatus de las guías](#listado-y-estatus-de-las-guías)

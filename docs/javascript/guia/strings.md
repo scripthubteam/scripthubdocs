@@ -1,10 +1,10 @@
 ---
-id: js-guia-2
+id: js-strings
 title: JavaScript - Cadenas. (Strings)
 sidebar_label: JavaScript - Cadenas.
 ---
 
-# Cadenas - <Strings>
+# Cadenas - *Strings*
 
 **Nota importante:** Antes de empezar, es importante saber lo siguiente:*
 
@@ -32,7 +32,7 @@ Esto imprimirá en la consola en la consola nuestro mensaje contenido entre `()`
 
 ## Propiedades
 
-### <String>.length
+### *String*.length
 Podemos medir la longitud de una cadena (el número de caracteres que contiene) con `.length`, aquí un ejemplo;
 
 ```js
@@ -43,28 +43,28 @@ console.log("¡Hola!".length);
 
 ## Métodos
 
-### <String>.toLowerCase()
+### *String*.toLowerCase()
 Podemos imprimir toda la cadena en minúscula, por ejemplo;
 ```js
 console.log("Hola, me llamo Karol YAYY");
 //Output: hola, me llamo karol yayy
 ```
 
-### <String>.toUpperCase()
+### *String*.toUpperCase()
 Podremos imprimir toda la cadena en mayúscula, por ejemplo;
 
 ```js
 console.log("Hola, me llamo Sebastián".toLowerCase());
 //Output: HOLA, ME LLAMO SEBASTIÁN
 ```
-### <String>.trim()
+### *String*.trim()
 Podremos eliminar los espacios en blanco o todo lo que se relacione a caracteres que formen nuevas líneas, por ejemplo:
 
 ```js
 console.log("    Paris   ".trim();
 //Output: Paris
 ```
-### <String>.includes()
+### *String*.includes()
 Podremos obtener un valor *booleano* indicando si la palabra existe o no en la cadena, por ejemplo:
 
 ```js
@@ -81,7 +81,7 @@ En esta ocasión retornara `true` porque `Jirafa` está incluida en la cadena.
 
 **Nota:** Si el valor en la cadena existe retornará `true` o de lo contrario, `false`. (Un booleano)
 
-### <String>.startsWith()
+### *String*.startsWith()
 Podremos obtener un valor *booleano* indicando si la cadena empieza por un caracter, sea `true` o `false` según el caso, por ejemplo:
 
 ```js
@@ -93,7 +93,7 @@ El método `.startsWith()` es *case sensitive*, así que no tomará en cuenta de
 console.log("Hola Mundo".startsWith("Hola"))
 //Output: true
 ```
-### <String>.endsWith()
+### *String*.endsWith()
 Podremos obtener un *booleano* incidando si el último valor de la cadena existe, sea `true` o `false` según el caso, por ejemplo:
 
 ```js
@@ -101,8 +101,8 @@ console.log("Hola Mundo".endsWith("Mundo"))
 //Output: true
 ```
 
-### <String>.split()
-Podremos dividir en objetos un `<String>` en un `<Array>`, por ejemplo:
+### *String*.split()
+Podremos dividir en objetos un `*String*` en un `<Array>`, por ejemplo:
 
 ```js
 var cadena = "Hola Mundo"

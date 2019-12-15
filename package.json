@@ -10,9 +10,9 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.36",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.36",
-    "@material-ui/core": "^4.7.0",
+    "@docusaurus/core": "^2.0.0-alpha.39",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.39",
+    "@material-ui/core": "^4.8.0",
     "babel-loader": "^8.0.6",
     "classnames": "^2.2.6",
     "material-ui": "^0.20.2",

@@ -66,13 +66,13 @@ function Feature({imageUrl, title, description}) {
 }
 
 function Marcas({imageUrl, title}) {
-  const imgUrl = useBaseUrl(imageUrl);
+  const imgMUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.marca)}>
-      {imgUrl && (
+      {imgMUrl && (
         <div className="text--center">
           <a href={title}>
-            <img className={styles.marcaImage} src={imgUrl} alt={title}/>
+            <img className={styles.marcaImage} src={imgMUrl} alt={title}/>
           </a>
         </div>
       )}
@@ -97,7 +97,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/indice')}>
+              to={useBaseUrl('docs/Autores')}>
               Empezar
             </Link>
           </div>
