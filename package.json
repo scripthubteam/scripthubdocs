@@ -19,7 +19,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-glitch-effect": "^2.0.2",
-    "react-icons": "^3.8.0"
+    "react-icons": "^3.8.0",
+    "serialize-javascript": "^2.1.2"
   },
   "browserslist": {
     "production": [
