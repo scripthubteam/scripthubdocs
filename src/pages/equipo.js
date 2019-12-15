@@ -43,6 +43,13 @@ const teams = [
       twUser: "https://twitter.com/nzk_devsaider",
     },
     {
+      title: <>GameBoy</>,
+      imageUrl: "https://avatars2.githubusercontent.com/u/19270998",
+      info: "Miembro del departamento general.",
+      gitUser: "https://github.com/estebanDT30",
+      twUser: "https://twitter.com/GameBoy0665",
+    },
+    {
       title: <>Monspeet</>,
       imageUrl: 'https://avatars3.githubusercontent.com/u/36456999',
       info: "Miembro del departamento general.",
@@ -57,18 +64,11 @@ const teams = [
       twUser: "https://twitter.com/ScriptHubTeam",
     },
     {
-      title: <>Zhyntox</>,
-      imageUrl: 'https://avatars1.githubusercontent.com/u/39054467',
-      info: "Representante del departamento comunitario.",
-      gitUser: "https://github.com/Asynfur",
+      title: <>Jonsnoww</>,
+      imageUrl: 'https://avatars0.githubusercontent.com/u/50961202',
+      info: "Miembro del departamento técnico.",
+      gitUser: "https://github.com/smomoa",
       twUser: "https://twitter.com/ScriptHubTeam",
-    },
-    {
-      title: <>GameBoy</>,
-      imageUrl: "https://avatars2.githubusercontent.com/u/19270998",
-      info: "Miembro del departamento general.",
-      gitUser: "https://github.com/estebanDT30",
-      twUser: "https://twitter.com/GameBoy0665",
     },
     {
       title: <>Mon</>,
@@ -84,7 +84,13 @@ const teams = [
       gitUser: "https://github.com/gragasllenger",
       twUser: "https://twitter.com/gg_ilenger",
     },
-    
+    {
+      title: <>Zcycko</>,
+      imageUrl: 'https://avatars2.githubusercontent.com/u/44483871',
+      info: "Miembro del departamento de moderación.",
+      gitUser: "https://github.com/Eleazarcaz",
+      twUser: "https://twitter.com/ScriptHubTeam",
+    },
   ];
 function Index({imageUrl, title, info, gitUser, twUser}) {
     const imgUrl = useBaseUrl(imageUrl);

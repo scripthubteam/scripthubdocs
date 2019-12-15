@@ -15,7 +15,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-image: url("");
+  background-image: url("https://images.wallpaperscraft.com/image/code_binary_code_glow_136085_2560x1440.jpg");
   background-size: 100%;
 }
 
@@ -38,9 +38,22 @@
   width: 100%;
 }
 
+.marca {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  width: 100%;
+  
+}
+
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.marcaImage {
+  height: 150px;
+  width: 150px;
 }
 
 .circularImage {

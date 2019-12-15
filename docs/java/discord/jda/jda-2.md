@@ -1,22 +1,22 @@
 ---
 id: jda-2
-title: Índice
+title: Primeros pasos
 sidebar_label: Primeros pasos
 ---
 
 1. [Introducción](#introducción) - Breve explicación sobre JDA.
 2. [Requisitos](#requisitos) - Programas necesarios para el correcto uso de JDA.
 3. [Instalación](#instalación) - Cómo instalar JDA en nuestro sistema.
-    - [Maven](###versión-maven) - Instalación con sistema administrador de dependencias Maven.
-        * [Eclipse](###eclipse-maven) - Maven para el IDE Eclipse.
-        * [NetBeans](###netbeans-maven) - Maven del sistema para el IDE NetBeans.
-    - [Gradle](###versión-gradle) - Instalación con el sistema administrador de dependencias Gradle.
-        * [Eclipse](###eclipse-jar) - Gradle para el IDE Eclipse.
-        * [IntelliJ](###intellij-idea-gradle) - Gradle para el IDE IntelliJ IDEA.
-    - [JAR](###versión-jar) - Instalación con el sistema de librerías JAR.
-        * [Eclipse](###eclipse-jar) - JAR para el IDE Eclipse.
-        * [NetBeans](###netbeans-jar) - JAR para el IDE NetBeans.
-        * [IntelliJ](###intellij-idea-jar) - JAR para el IDE IntelliJ IDEA.
+    - [Maven](#versión-maven) - Instalación con sistema administrador de dependencias Maven.
+        * [Eclipse](#eclipse-maven) - Maven para el IDE Eclipse.
+        * [NetBeans](#netbeans-maven) - Maven del sistema para el IDE NetBeans.
+    - [Gradle](#versión-gradle) - Instalación con el sistema administrador de dependencias Gradle.
+        * [Eclipse](#eclipse-jar) - Gradle para el IDE Eclipse.
+        * [IntelliJ](#intellij-idea-gradle) - Gradle para el IDE IntelliJ IDEA.
+    - [JAR](#versión-jar) - Instalación con el sistema de librerías JAR.
+        * [Eclipse](#eclipse-jar) - JAR para el IDE Eclipse.
+        * [NetBeans](#netbeans-jar) - JAR para el IDE NetBeans.
+        * [IntelliJ](#intellij-idea-jar) - JAR para el IDE IntelliJ IDEA.
 4. [Primer inicio](#primer-inicio) - Se hace la explicación de un código simple para ejecutar el bot y esté en línea.
 5. [Conclusión](#conclusión) - Se explicará todo lo que se hizo en esta guía de una manera resumida y bien redactada.
 
@@ -50,9 +50,9 @@ Se hará un explicación para los IDEs: *Eclipse*, *NetBeans* e *IntelliJ IDEA*.
 [![JDA Version](https://img.shields.io/badge/JDA-Lastest-lightgrey.svg)](https://github.com/DV8FromTheWorld/JDA "JDA GitHub")
 [![JDA Wiki](https://img.shields.io/badge/JDA-Wiki-blue.svg)](https://github.com/DV8FromTheWorld/JDA/wiki "JDA Wiki")
 
-- [Instalación con Maven](###versión-maven)
-- [Instalación con Gradle](###versión-jar)
-- [Instalación con JAR](###versión-jar)
+- [Instalación con Maven](#versión-maven)
+- [Instalación con Gradle](#versión-jar)
+- [Instalación con JAR](#versión-jar)
 
 ---
 
@@ -77,9 +77,9 @@ Partiendo de que un documento `pom.xml` base sería así:
 ```
 
 #### Instalación según el IDE
-- [Eclipse](###eclipse-maven)
-- [NetBeans](###netbeans-maven)
-- [IntelliJ](###intellij-idea-maven)
+- [Eclipse](#eclipse-maven)
+- [NetBeans](#netbeans-maven)
+- [IntelliJ](#intellij-idea-maven)
 
 ### Eclipse Maven
 
@@ -159,8 +159,8 @@ Seguido de eso, definimos la dependencia por medio de las etiquetas:
 Gradle es muy parecido a Maven, lo único que cambia es la forma en que se escriben las cosas para instalarse.
 
 #### Instalación según el IDE
-- [Eclipse](###eclipse-gradle)
-- [IntelliJ](###intellij-idea-gradle)
+- [Eclipse](#eclipse-gradle)
+- [IntelliJ](#intellij-idea-gradle)
 
 ### Eclipse Gradle
 > Si tienes instalado *Eclipse para desarrolladores de Java* (*Eclipse for Java Developers*) en tu sistema, salta este paso y ve al paso #2.
@@ -265,9 +265,9 @@ En este caso se necesitará un JAR que nos provee [JDA](https://github.com/DV8Fr
 Si queremos ayudarnos del autocompletar del IDE y sus anotaciones, debemos descargar los *Sources* y *Javadocs*, encontrados en la misma pestaña de los [`Releases`](https://github.com/DV8FromTheWorld/JDA/releases "JDA GitHub Releases") del GitHub de JDA (en su versión más reciente hasta el momento de escribir esta guía, son: *[JDA-4.0.0_39-sources.jar](https://github.com/DV8FromTheWorld/JDA/releases/download/v4.0.0/JDA-4.0.0_39-sources.jar "Descarga de JDA-sources.jar")* y *[JDA-4.0.0_39-javadoc.jar](https://github.com/DV8FromTheWorld/JDA/releases/download/v4.0.0/JDA-4.0.0_39-javadoc.jar "Descarga de JDA-javadocs.jar")*)
 
 #### Instalación según el IDE
-- [Eclipse](###eclipse-jar)
-- [NetBeans](###netbeans-jar)
-- [IntelliJ](###intellij-idea-jar)
+- [Eclipse](#eclipse-jar)
+- [NetBeans](#netbeans-jar)
+- [IntelliJ](#intellij-idea-jar)
 
 ### Eclipse JAR
 - **Creamos el proyecto**.
