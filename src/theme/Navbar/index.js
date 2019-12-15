@@ -90,7 +90,7 @@ function Navbar() {
                 viewBox="0 0 30 30"
                 role="img"
                 focusable="false">
-                <title>Menu</title>
+                <title>Menú</title>
                 <path
                   stroke="currentColor"
                   strokeLinecap="round"
